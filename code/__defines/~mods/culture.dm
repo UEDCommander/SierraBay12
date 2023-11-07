@@ -1,3 +1,4 @@
+// EXPANDED_CULTURE_DESCRIPTOR - Start
 #define HOME_SYSTEM_UNATHI_TERSTEN  "Tersten"
 #define FACTION_UNATHI_TERSTEN      "Tersten Hegemony"
 #define CULTURE_UNATHI_TERSTEN      "Tersten Unathi"
@@ -13,7 +14,7 @@
 #define FACTION_BISHOP          "Bishop Cybernetics"
 #define FACTION_MORPHEUS        "Morpheus Cyberkinetics"
 #define FACTION_ZPCI            "Zone Protection Control Inc."
-#define FACTION_SEPTENERGO      "SeptEnergo Public Joint-Stock Company"
+#define FACTION_SEPTENERGO      "SeptEnergo"
 
 #define CULTURE_HUMAN_LORRIMAN "Lorrimanian"
 #define CULTURE_HUMAN_AVANOBLE "Avalon Noble"
@@ -39,3 +40,4 @@
 #define FACTION_POSITRONICS   "Positronic Union"
 
 #define HOME_SYSTEM_ROOT  "Root"
+// EXPANDED_CULTURE_DESCRIPTOR - End
