@@ -1,5 +1,5 @@
 // EXPANDED_CULTURE_DESCRIPTOR - Start
-#define HOME_SYSTEM_UNATHI_TERSTEN  "Tersten"
+#define HOME_SYSTEM_UNATHI_TERSTEN  "Tersten Clans"
 #define FACTION_UNATHI_TERSTEN      "Tersten Hegemony"
 #define CULTURE_UNATHI_TERSTEN      "Tersten Unathi"
 
