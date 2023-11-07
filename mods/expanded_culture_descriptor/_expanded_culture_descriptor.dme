@@ -14,7 +14,6 @@
 // BEGIN_PREFERENCES
 // END_PREFERENCES
 // BEGIN_INCLUDE
-#include "_expanded_culture_descriptor.dm"
 #include "code\_culture.dm"
 #include "code\alain.dm"
 #include "code\arabic.dm"
@@ -35,6 +34,7 @@
 #include "code\russian.dm"
 #include "code\selenian.dm"
 #include "code\spanish.dm"
+#include "code\tajara_culture.dm"
 // END_INCLUDE
 
 #endif

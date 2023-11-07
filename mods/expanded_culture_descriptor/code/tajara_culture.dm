@@ -1,4 +1,4 @@
-//singleton/cultural_info/culture/tajaran
+/singleton/cultural_info/culture/tajaran
 	nickname = "Адомайский таяран"
 
 /singleton/cultural_info/faction/tajaran
