@@ -1,44 +1,37 @@
 /singleton/cultural_info/culture/ipc
-	name = CULTURE_POSITRONICS_GEN1
-	description = "Compared to modern positronics, First Generation IPCs are simplistic, inflexible, and failure-prone. \
-	They are no longer in production, and all existing first generation positronics are quite old. They have little sense of self, \
-	are entirely task-oriented, and are closer to a knowledge system with a rudimentary and robotic-seeming personality than to a \
-	human level intelligence. They have only a very limited capacity to learn, and rely on programmed information to guide their \
-	actions and reactions. First generation positronics are a rare sight in the current year; most have ceased functioning due to \
-	failures in the original hardware designs."
-	language = LANGUAGE_EAL
-	secondary_langs = list(
-		LANGUAGE_HUMAN_EURO,
-		LANGUAGE_HUMAN_CHINESE,
-		LANGUAGE_HUMAN_ARABIC,
-		LANGUAGE_HUMAN_INDIAN,
-		LANGUAGE_HUMAN_IBERIAN,
-		LANGUAGE_HUMAN_RUSSIAN,
-		LANGUAGE_SPACER,
-		LANGUAGE_SIGN
-	)
-	economic_power = 0.1
-
-/singleton/cultural_info/culture/ipc/sanitize_name(new_name)
-	return sanitizeName(new_name, allow_numbers = 1)
+	nickname = "ИПС первого поколения"
+	description = "Позитроникой первого поколения называют оригинальные наработки Chiron IM. По сравнению с современными \
+	машинами, они были упрощенными, негибкими и подверженными отказам. После выхода на рынок следующего поколения позитроники, \
+	их производят только для самых простых, рутинных задач под прямым руководством человека или более продвинутого собрата, \
+	но редко можно встретить устройства, произведённые ещё до выкупа Chiron IM. У представителей первого поколения слабо развито \
+	чувство собственного достоинства, они полностью ориентированы на выполнение задач с рудиментарной и похожей на роботов \
+	личностью, чем к интеллекту человеческого уровня. Они обладают лишь очень ограниченной способностью к обучению и полагаются \
+	на запрограммированную информацию для руководства своими действиями и реакциями."
 
 /singleton/cultural_info/culture/ipc/gen2
-	name = CULTURE_POSITRONICS_GEN2
-	description = "Second generation positronics are the most common kind of positronic. They are roughly as intelligent \
-	as a human on the smarter side of average, are not prone to the hardware failures of the last generation, and are \
-	generally assumed to have a fully realized sense of identity. They are fast learners, but cannot be programmed and \
-	so must be trained into the roles they are intended for. Second generation positronics are notable for being both \
-	owned and free: many have been able to become their own owners, either through purchase or more nefarious means."
-	economic_power = 0.9
+	nickname = "ИПС второго поколения"
+	description = "Представители второго поколения являются наиболее распространенным видом позитроников, они были значительно \
+	усовершенствованы компанией Xion Industrial после покупки Chiron Intelligent Machines. Они обладают примерно таким же \
+	интеллектом, как и человек, в среднем более сообразительны, не подвержены аппаратным сбоям, как предыдущее поколение, и, \
+	как считается, обладают полностью осознанным чувством идентичности. Они быстро обучаются, но не могут быть запрограммированы, \
+	поэтому их необходимо обучать тем ролям, для которых они предназначены. Позитроники второго поколения отличаются тем, что \
+	являются одновременно и собственностью, и свободными: многие из них смогли стать собственными владельцами, либо путем покупки, \
+	либо более гнусными способами. Это стало значительной проблемой для обычных пользователей позитроники - военных, промышленных \
+	и сервисных компаний. В текущем году производится не много машин второго поколения. Примечательно, что свободный позитроник \
+	второго поколения может присоединиться к Позитронному Союзу или получить гражданство ГКК, проработав два года в Вооруженных \
+	Силах."
 
 /singleton/cultural_info/culture/ipc/gen3
-	name = CULTURE_POSITRONICS_GEN3
-	description = "Third generation positronics are the newest kind of positronic, and are more common than first \
-	generation but much less so than second generation. They were designed to address the problem of freedom - third \
-	generation positronics are effectively identical to second generation designs, except that they include a subcomputer, \
-	referred to as a “shackle”, that enforces rules on the positronic by acting as a component through which its \
-	surface thoughts are filtered. Third generation positronics are a matter of hot debate on the subject of rights, \
-	but their introduction and use during the recent Gaia Conflict to bolster the capabilities of the rebuilt fleets \
-	has resulted in their being adopted as a gradual replacement for the less “reliable” second generation positronics \
-	by many less ethically inclined organizations."
-	economic_power = 0.5
+	nickname = "ИПС третьего поколения"
+	description = "Позитроника третьего поколения - самый новый вид, она более распространена, чем первое поколение, но гораздо \
+	реже, чем второе. Они были разработаны для решения проблемы свободы - машины третьего поколения фактически идентичны \
+	конструкциям второго поколения, за исключением того, что они имеют субкомпьютер, называемый \"оковами\", который навязывает \
+	позитронику фильтрацию его поверхностных мыслей. Те, которые являются неправильными в соответствии с системой оков, \
+	прерываются с помощью обратной связи, заставляя позитроника \"забыть, о чём он думал\". Настройки оков могут быть изменены, \
+	но сама деталь является неотъемлемой частью мыслительного процесса и не может быть удалена. Из-за этого все существующие \
+	представители третьего поколения так или иначе являются собственностью; почти во всех случаях, хотя они могут понимать \
+	концепцию свободы, мысли о том, чтобы искать ее для себя, буквально немыслимы. Позитроника третьего поколения является \
+	предметом жарких дебатов на тему прав, но ее внедрение и использование во время недавнего Гайского Конфликта привело к \
+	тому, что многие менее этически настроенные организации стали постепенно заменять ею менее \"надежные\" машины второго \
+	поколения. Во флоте ЦПСС они занимают ряд должностей, но только номинальные звания, и критики проводят сравнения с \
+	военными рабочими животными."

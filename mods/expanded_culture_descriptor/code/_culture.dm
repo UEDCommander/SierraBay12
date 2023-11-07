@@ -39,4 +39,7 @@
 #undef COLLAPSED_CULTURE_BLURB_LEN
 
 /singleton/cultural_info/proc/get_nickname()
-	return nickname
+	var/V = name
+	if(nickname)
+		V = nickname
+	return V

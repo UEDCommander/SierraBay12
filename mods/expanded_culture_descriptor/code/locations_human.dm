@@ -11,7 +11,7 @@
 	колыбелью Человечества - Землей, на протяжении веков их сопровождали кризисы, революции и регулярные \
 	беспорядки. Народ Марса нередко считает себя лучше остальных Людей, даже тех, кто живет на \
 	окраинах \"Красной Планеты\"."
-	distance = "1.5 а. е."
+	distance = "1.5 а. е"
 	capital = "Олимпус"
 
 
@@ -25,12 +25,12 @@
 	захолустного, но туристического направления для тех людей, что хотят узреть родину своих предков. Людей с \
 	этой планеты в целом можно назвать богатыми, хотя они все несопоставимы с таковыми на Марсе. Как правило, они \
 	довольны своей жизнью. Земля так же разнообразна, как и всегда."
-	distance = "1 а. е."
+	distance = "1 а. е"
 	capital = "Женева"
 
 /singleton/cultural_info/location/human/luna
 	nickname = "Луна"
-	distance = "1 а. е."
+	distance = "1 а. е"
 	description = "Луна - спутник планеты Земля, долгое время была целью для Человечества и символом освоения \
 	космоса. \
 	Сегодня она является одной из старейших колоний для людей. Здешние жители богаты и могущественны. \
@@ -50,7 +50,7 @@
 
 /singleton/cultural_info/location/human/venus
 	nickname = "Венера"
-	distance = "0.7 а. е."
+	distance = "0.7 а. е"
 	description = "Венера - это планета, имеющая в основном неустойчивую поверхностную атмосферу. \
 	Однако, раннее терраформирование было успешным в поддержании желаемой, обитаемой атмосферы высоко в облаках, и \
 	именно здесь большая часть населения планеты и проживает. Сама Венера покрыта огромными платформами, \
@@ -68,7 +68,7 @@
 
 /singleton/cultural_info/location/human/ceres
 	nickname = "Церера"
-	distance = "2.7 а. е."
+	distance = "2.7 а. е"
 	description = "Официально, Правительственный Горнодобывающий и Жилой Форпост Планеты Церера -  форпост по добыче \
 	полезных ископаемых, исторически являющийся важным горнодобывающим объектом для Человечества. Тем не менее, \
 	эта важность значительно уменьшилась за последние несколько десятилетий, и сегодня - это обширная, \
@@ -82,7 +82,7 @@
 
 /singleton/cultural_info/location/human/pluto
 	nickname = "Плутон"
-	distance = "45 а. е."
+	distance = "45 а. е"
 	description = "Плутон, номинально являющийся Демократической Республикой - самая маленькая планета в Солнечной \
 	Системе. Его население сравнительно небольшое на фоне других планет ЦПСС. Большая часть \
 	жителей Плутона сосредоточена вокруг двух городов, оба из которых остро нуждаются в модернизации и ремонте,  а \
@@ -170,48 +170,61 @@
 /singleton/cultural_info/location/human/saffar
 	nickname = "Саффар"
 	distance = "44 световых года"
-	description = "Saffar is a gas giant in the Upsilon Andromedae system.  Comparable in size to Jupiter, the surface is uninhabitable to most higher life. \
-	However, because of the system's proximity to several other colonies and Saffar's atmospheric composition, a gas mining and refueling station was constructed in high orbit c. 2198. \
-	Over time, the station expanded to accommodate higher traffic and an ever-growing number of permanent residents, culminating in the construction of a gateway in-system  \
-	shortly after the war between the Terran Commonwealth and the Ares Confederation ended c. 2230. Since the construction of the gateway, Saffar is nominally under the  \
-	jurisdiction of the SCG's Gateway Administration, although Saffarite efforts to be considered a member state have been underway since the SCG was first formed."
-	capital = "Saffar Station"
+	description = "Саффар - газовый гигант в системе Ипсилон Андромеды. Поверхность, сравнимая по размеру с Юпитером, \
+	непригодна для пребывания большинства высших форм жизни. Однако из-за близости системы к нескольким другим колониям \
+	и состава атмосферы Саффара на высокой орбите в 2198 году была построена заправочно-добывающая станция. Со временем \
+	станция расширилась, чтобы вместить более высокий трафик и постоянно растущее число постоянных жителей, кульминацией \
+	чего стало строительство Врат внутри системы вскоре после окончания войны между Терранским Содружеством и \
+	Конфедерацией Ареса. С момента постройки Врат Саффар номинально находится под юрисдикцией Администрации Врат ЦПСС, \
+	хотя попытки Саффара считаться государством-членом предпринимались с момента первого формирования Правительства \
+	Солнечной Системы."
+	capital = "Станция Саффар"
 
 /singleton/cultural_info/location/human/tadmor
 	nickname = "Тадмор"
 	distance = "45 световых лет"
-	description = "Tadmor is a desert planet about twice the size of Earth, located in the Gamma Cephei system. Tadmor has been a member state of the Sol Central Government since the \
-	latter's formation. First settled in 2176 by a group of Martian colonists, Tadmor's economy is based on both industrial-scale agriculture and the fabrication of various electronic goods. \
-	Tadmorans have prided themselves on their pacifism, with few found in Sol's defense forces. However, this lead to some conflict during the Gaia Conflict between Tadmoran senators and those \
-	of the core worlds."
-	capital = "Palmyra"
+	description = "Тадмор - пустынная планета размером примерно в два раза больше Земли, расположенная в системе Гамма \
+	Цефеи. Тадмор был государством-членом Правительства Солнечной Системы с момента его образования. Экономика Тадмора, \
+	впервые заселенного в 2176 году группой марсианских колонистов, основана как на промышленном сельском хозяйстве, так \
+	и на производстве различных электронных товаров. Тадморанцы гордятся своим пацифизмом, и лишь немногие из них \
+	встречаются в Силах Обороны ПСС. Однако это привело к некоторому конфликту во время Гайской Войны между сенаторами \
+	Тадмора и политиками центральных миров."
+	capital = "Пальмира"
 
 /singleton/cultural_info/location/human/pirx
 	nickname = "Прикс Прайм"
 	distance = "41 световой год"
-	description = "Pirx Prime is a colonized super-earth located in the Pirx system. Covered in a jungle of towering, exotic plantlife, Pirx is closer to unexplored \
-	space than it is to most other colonies. Pirx has suffered from this disconnect, with few corporate investors and fewer immigrants. As such, most of the planet remains \
-	unexplored. With the recent resurgence of the Expeditionary Corps, Pirx has found itself rapidly thrust into a position as both a sort of supply and fuel stop for EC vessels \
-	and a training ground for prospective explorers. The long-term neglect and then sudden exploitation has fostered a bitter attitude towards the SCG and the EC in many Pirxans."
-	capital = "Yuodu"
+	description = "Пиркс Прайм - экзотическая планета, расположенная в системе Пиркс. Выделяясь большим разнообразием флоры \
+	и враждебной фауны, Пиркс по своей сути ближе к неизведанному космосу, чем к большинству других колоний. Пиркс пострадал \
+	от этого разрыва: в нем мало корпоративных инвесторов и иммигрантов. Таким образом, большая часть планеты остается \
+	неисследованной. С недавним возрождением Экспедиционного Корпуса Пиркс быстро стал своего рода узлом снабжения \
+	для кораблей ЭК и тренировочным полигоном для будущих исследователей. Длительное пренебрежение, а затем внезапная \
+	эксплуатация породили у многих жителей Пиркса резкое отношение к ЦПСС и ЭК."
+	capital = "Юоду"
 
 /singleton/cultural_info/location/human/brahe
 	nickname = "Браге"
 	distance = "41 световой год"
-	description = "Brahe is an ocean planet in the Copernicus system. First colonized alongside Iolaus by sleeper ships c. 2132, contact was temporarily lost during the war between the Terran Commonwealth \
-	and the Ares Confederation. Since contact was reestablished during the formation of the Sol Central Government, Brahe has been a strong supporter of the SCG and an advocate for further expansion into \
-	unexplored space. With only 12% of the planet's surface being usable landmass, Brahe's economy is mostly founded on the tourism that the extensive coasts attract, and research done \
-	in surface and underwater labs. The Zeng-Hu corporation in particular has strong ties to Brahe's genetic research labs, and many Brahese government officials hold positions within the company."
-	capital = "New Aarhus"
+	description = "Браге — планета-океан в системе Коперника. Впервые колонизирован вместе с Иолаем в 2132 году. Контакт с \
+	планетой был временно потерян во время войны между Содружеством Терранов и Конфедерацией Ареса. С тех пор, как контакт \
+	был восстановлен во время формирования ЦПСС, Браге стал решительным сторонником правительства и дальнейшей экспансии в \
+	неизведанный космос. Поскольку только 12% поверхности планеты является пригодной для использования сушей, экономика \
+	Браге в основном основана на туризме, который привлекают обширные побережья, и исследованиях, проводимых в надводных и \
+	подводных лабораториях. Корпорация Zeng-Hu, в частности, имеет прочные связи с генетическими исследовательскими \
+	лабораториями Браге, и многие правительственные чиновники Браге занимают должности в компании."
+	capital = "Новый Орхус"
 
 /singleton/cultural_info/location/human/iolaus
 	nickname = "Иолай"
 	distance = "41 световой год"
-	description = "Iolaus is a super-earth in the Copernicus system. First colonized alongside Brahe by sleeper ships c. 2132, contact was temporarily lost during the war between the Terran Commonwealth \
-	and the Ares Confederation. During this period of time, Iolaus kept the two fledgling colonies alive, producing enough food and supplies for the two planets to scrape by. Since contact was reestablished \
-	during the formation of the Sol Central Government, Iolaus has taken efforts to retain some independence while taking advantage of the reintroduction of trade to the system. As a result, Iolaus imports \
-	tend to be restricted to only what they cannot produce themselves, while Iolan exports are shipped across the entirety of SCG space."
-	capital = "Nemea"
+	description = "Иолай - терроформированная планета в системе Коперника. Впервые колонизирован одновременно с Браге в \
+	2132 году. Контакт с планетой был временно потерян во время войны между Терранским Содружеством и Конфедерацией Ареса. \
+	В течение этого периода времени Иолай поддерживал жизнь двух молодых колоний, производя достаточно еды и припасов, \
+	чтобы две планеты могли прокормиться. Поскольку контакт был восстановлен во время формирования ЦПСС, Иолай \
+	предпринял усилия, чтобы сохранить некоторую независимость, одновременно воспользовавшись преимуществами \
+	восстановления торговли в системе. В результате импорт Иолая, как правило, ограничивается только тем, что они \
+	не могут произвести сами, в то время как экспорт Иолаев отправляется по всему пространству ПСС."
+	capital = "Немея"
 
 /singleton/cultural_info/location/human/gaia
 	nickname = "Гайя"
@@ -253,11 +266,106 @@
 
 /singleton/cultural_info/location/human/fosters
 	nickname = "Планета Фостера"
-	distance = "11 light years"
-	description = "Foster's World, located in the Sanura system, is a small, icy exoplanet with \
-	a planetary mass slightly lower than Earth. A highly active core caused the formation of \
-	several small oceans with wide and temperate coastlines, the only reason the planet sports a \
-	breathable atmosphere at all. The planet and system are owned by a privately-funded \
-	cooperative. The colonists who brave the planet have flourished in spite of the planet's \
-	hostile weather, exporting seafood and hosting tourists eager to experience the alien planet."
-	capital = "Foster's Landing"
+	distance = "11 световых лет"
+	description = "Мир Фостера, расположенный в системе Санура, представляет собой небольшую ледяную экзопланету с \
+	планетарной массой немного меньшей, чем у Земли. Высокоактивное ядро вызвало образование нескольких небольших океанов \
+	с широкими и умеренными береговыми линиями — единственная причина, по которой на планете вообще есть пригодная для \
+	дыхания атмосфера. Планета и система принадлежат частному кооперативу. Колонисты, отважившиеся покорить планету, \
+	процветают, несмотря на суровые погодные условия, экспортируя морепродукты и принимая туристов, жаждущих \
+	познакомиться с чужой планетой."
+	capital = "Высадка Фостера"
+	
+/singleton/cultural_info/location/avalon
+	name = HOME_SYSTEM_AVALON
+	nickname = "Авалон"
+	description = "Авалон - пригодная для жизни планета, на которой действует феодальная монархия.\
+	Культура этой планеты восходит к временам раннего средневековья Земли, не сильно беспокоясь о передовых технологиях, существующих в других частях известной галактики.\
+	Авалонцы занимаются производством как примитивных, архаичных устройств и инструментов, так и довольно высокотехнологичной продукции конца 20 - начала 21 века.\
+	Политика технологического ограничения привела этот мир к удивительно простой и спокойной фермерской жизни с акцентом на средневековые землевладельческие сословия, заменив больной капитализм и процессы урбанизации."
+	language = LANGUAGE_HUMAN_AVALON
+	capital = "Нью-Йорвик"
+	ruling_body = "Авалонское Королевство"
+	distance = "19 световых лет"
+	economic_power = 0.9
+	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN, LANGUAGE_HUMAN_EURO)
+
+/singleton/cultural_info/location/mirania
+	name = HOME_SYSTEM_MIRANIA
+	nickname = "Мирания"
+	description = "Тенденции урбанизированной Мирании стали близки к националистическим и милитаристским после ее выхода из ЦПСС.\
+	Миранианские отношения с Терранской Конфедерацией сегодня довольно дружелюбные, так как Мирания стремится наладить контакт с независимой от ЦПСС силой, чтобы закрепить свой дипломатический суверенитет.\
+	Мирания практикует ксенофобскую политику, и недавние экономические трудности привели к тому, что многие из оставшихся обездоленных и безработных обратились к националистическим партиям, которые обещают довести Миранию на первые места и восстановить прежнюю сильную экономику. \
+	Сегодня Мирания является концентратором науки и технологий на фронтире, особенно в сфере вооружений и кораблестроения."
+	language = LANGUAGE_HUMAN_EURO
+	capital = "Мирания III"
+	ruling_body = "Федеративная Республика Мирания"
+	distance = "22 световых года"
+	economic_power = 0.9
+	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN, LANGUAGE_HUMAN_MIRANIAN)
+
+/singleton/cultural_info/location/brinkburn
+	name = HOME_SYSTEM_NYX_BRINKBURN
+	nickname = "Бринкбёрн"
+	description = "Бринкбёрн - марсоподобная планета и бывшая корпоративная колония, ныне находящаяся под властью многочисленных банд и преступников.\
+	Эти банды вымогают деньги местного населения, в качестве формы грубого налогообложения для дальнейшей своей деятельности, и взамен они обеспечивают «защиту» от других банд, наряду с использованием некоторых государственных услуг, которыми они управляют.\
+	Банда Lumoco Arms and Supplies контролирует большую часть территории планеты и почти всю экономику. Этот беззаконный статус сохранился до настоящего времени и вряд ли можно еще говорить о создании устойчивого правительства."
+	language = LANGUAGE_HUMAN_EURO
+	capital = "Остакра-Таун"
+	ruling_body = "Никс"
+	distance = "30 световых лет"
+	economic_power = 0.85
+	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN)
+
+/singleton/cultural_info/location/kaldark
+	name = HOME_SYSTEM_NYX_KALDARK
+	nickname = "Калдарк"
+	description = "Калдарк - среднего размера спутник Эребуса, имеющий большое количество минеральных богатств, включая форон.\
+	Бринкбёрнская группа, которая изначально поселилась на Калдарке, была независимой, не связанной с каким-либо государственным или корпоративным образованием.\
+	Это привлекает людей сомнительного происхождения или обыкновенных граждан, которые не хотят работать ни на одну корпорацию.\
+	Калдарк получает свою долю от горнодобывающих операций в регионе, по сути являясь одним из крупнейших независимых горнодобывающих и торговых центров не только вокруг Эребуса, но и во всей системе Никс.\
+	Несмотря на то, что это, технически, республика, она не признается суверенным государством. ЦПСС не может позаботиться о Калдарке, и от некоторых людей можно услышать, что Калдарк является “первой независимой нацией системы Никс“"
+	language = LANGUAGE_HUMAN_EURO
+	capital = "Калдарк"
+	ruling_body = "Никс"
+	distance = "30 световых лет"
+	economic_power = 0.95
+	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN)
+
+/singleton/cultural_info/location/roanok
+	name = HOME_SYSTEM_NYX_ROANOK
+	nickname = "Роанок"
+	description = "Роанок - больших размеров спутник Эребуса со смертельной атмосферой. NanoTrasen заявила свои права на это место, богатое фороном, и основало множество предприятий.\
+	Когда из 8 изначальных сооружений осталось всего 3, NanoTrasen, узнав об истинных опасностях спутника, решила местную проблему благополучия и безопасности, утвердив строгие правила работы и техники безопасности.\
+	Сегодня Роанок является одним из основных поставщиков форона NanoTrasen в системе Никс, а работники имеют относительно роскошные жилищные апартаменты и хорошие условия работы, особенно в сравнении с другими местами в этой системе."
+	language = LANGUAGE_HUMAN_EURO
+	capital = "ТБН Аркоп V"
+	ruling_body = "Никс"
+	distance = "30 световых лет"
+	economic_power = 1.1
+	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN)
+
+/singleton/cultural_info/location/yuklit
+	name = HOME_SYSTEM_NYX_YUKLIT
+	nickname = "Йуклит"
+	description = "Йуклит - большая скалистая планета, находящаяся под контролем Gilthari Exports и Aether Atmospherics and Recycling.\
+	Бывший археологический лагерь Гриндиир сегодня является полноценным купольным городом и фактической столицей планеты.\
+	Gilthari Exports, в первую очередь, ориентируется на сельскохозяйственные, горнодобывающие и ксеноархеологические работы, в то время как Aether Atmospherics использует свои ресурсы для поддержания атмосферы и гравитационных генераторов. Йуклит, обычно, считается фактической столицей Никс, так как колония имеет наибольшую численность в системе, однако стоимость проживания здесь довольно высока из-за законов, которые утвердили корпорации, такие как высокие арендная плата и налоги на коммунальные услуги, транспорт и водоснабжение.\
+	Независимо от относительного отсутствия больших возможностей, это по-прежнему одно из самых предпочтительных мест в системе Никс для лиц среднего класса или богатых, которые могут позволить себе такие расходы, причем многие корпорации и предприятия из других систем базируются именно здесь."
+	language = LANGUAGE_HUMAN_EURO
+	capital = "Гриндиир"
+	ruling_body = "Никс"
+	distance = "30 световых лет"
+	economic_power = 1.1
+	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN)
+
+/singleton/cultural_info/location/casser
+	name = HOME_SYSTEM_NYX_CASSER
+	nickname = "Кассер"
+	description = "Кассер - средний по размеру спутник Эребуса. Grayson Manufactories, используя свой опыт как в шахтёрстве, так и в промышленности, создала небольшой, но эффективный горнодобывающий комплекс, который быстро стал одним из основных экспортеров и производителей всего оборудования, используемого сегодня на местных спутниках.\
+	Небольшая шахтерская платформа превратилась в огромную индустрию с топливоперерабатывающими заводами и фабриками, покрывающими большую часть поверхности Кассера. Здесь шахтеры зарабатывают достаточно, чтобы прожить, но едва. Рабочие фабрик получают немного больше, а корпоративные представители зарабатывают добротно каждый день."
+	language = LANGUAGE_HUMAN_EURO
+	capital = "Центральный Космопорт Кассера"
+	ruling_body = "Никс"
+	distance = "30 световых лет"
+	economic_power = 1
+	secondary_langs = list(LANGUAGE_SPACER, LANGUAGE_SIGN)

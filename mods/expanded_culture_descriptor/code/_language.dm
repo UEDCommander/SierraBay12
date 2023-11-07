@@ -1,0 +1,3 @@
+#define LANGUAGE_HUMAN_LORRIMAN		"Lirris"
+#define LANGUAGE_HUMAN_AVALON		"Alain"
+#define LANGUAGE_HUMAN_MIRANIAN		"Miranian"

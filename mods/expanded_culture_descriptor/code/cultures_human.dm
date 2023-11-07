@@ -175,7 +175,7 @@
 	однако, не важно относитесь ли вы к ученым или же к рабочему классу, - ваше существование нельзя назвать бедным.\
 	Напротив, ваша жизнь окружена технологическими новинками и самыми передовыми разработками человечества."
 	economic_power = 1.3
-	//language = LANGUAGE_HUMAN_LORRIMAN
+	language = LANGUAGE_HUMAN_LORRIMAN
 
 /singleton/cultural_info/culture/human/avalon_noble
 	name = CULTURE_HUMAN_AVANOBLE
@@ -186,7 +186,7 @@
 	Жизнь аристократа мало походит на свободную, замкнутую в цепи многочисленных традиций,\
 	политики и амбиций, как ваших, так и чужих."
 	economic_power = 1
-	//language = LANGUAGE_HUMAN_AVALON
+	language = LANGUAGE_HUMAN_AVALON
 
 /singleton/cultural_info/culture/human/avalon_common
 	name = CULTURE_HUMAN_AVACOMMON
@@ -196,7 +196,7 @@
 	Несмотря на то, что до аристократии вам далеко, хорошее лечение и образование было вполне доступно, хоть и сильно било по карману.\
 	Впрочем, теперь Вы уже вне Авалона и его традиций, как и вне его проблем."
 	economic_power = 0.4
-	//language = LANGUAGE_HUMAN_AVALON
+	language = LANGUAGE_HUMAN_AVALON
 
 /singleton/cultural_info/culture/human/lord_upper
 	name = CULTURE_HUMAN_LORDUP
@@ -241,7 +241,7 @@
 	Мирания практикует ксенофобскую политику, и недавние экономические трудности привели к тому, что многие из оставшихся обездоленных и безработных обратились к националистическим партиям, которые обещают довести Миранию на первые места и восстановить прежнюю сильную экономику. \
 	Сегодня Мирания является концентратором науки и технологий на фронтире, особенно в сфере вооружений и кораблестроения."
 	economic_power = 0.9
-	//language = LANGUAGE_HUMAN_MIRANIAN
+	language = LANGUAGE_HUMAN_MIRANIAN
 	secondary_langs = list (LANGUAGE_HUMAN_EURO,
 		LANGUAGE_HUMAN_CHINESE,
 		LANGUAGE_HUMAN_ARABIC,

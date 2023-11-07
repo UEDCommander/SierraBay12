@@ -1,6 +1,6 @@
 /singleton/cultural_info/religion/other
 	nickname = "Локальная религия"
-	description = "Одна из многих локальных и относительно неизвестных религий Человеческого пространства."
+	description = "Одна из многих локальных и относительно неизвестных религий."
 
 /singleton/cultural_info/religion/unstated
 	nickname = "Не указано"

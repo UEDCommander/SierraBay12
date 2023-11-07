@@ -1,5 +1,6 @@
 #define HOME_SYSTEM_UNATHI_TERSTEN  "Tersten"
 #define FACTION_UNATHI_TERSTEN      "Tersten Hegemony"
+#define CULTURE_UNATHI_TERSTEN      "Tersten Unathi"
 
 #define FACTION_ZENG_HU         "Zeng-Hu Pharmaceuticals"
 #define FACTION_WARD_TAKAHASHI  "Ward-Takahashi GMB"
@@ -30,3 +31,11 @@
 #define HOME_SYSTEM_NYX_ROANOK           	"Roanok"
 #define HOME_SYSTEM_NYX_YUKLIT           	"Yuklit"
 #define HOME_SYSTEM_NYX_CASSER           	"Casser"
+
+#define FACTION_SKRELL_MED  "Gloa'Morr Corp."
+#define FACTION_SKRELL_AIR  "Krri'gli Corp."
+#define FACTION_SKRELL_FOOD  "Qorr'moa Inc."
+
+#define FACTION_POSITRONICS   "Positronic Union"
+
+#define HOME_SYSTEM_ROOT  "Root"

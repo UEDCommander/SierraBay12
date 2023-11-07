@@ -1,9 +1,62 @@
 #ifndef MODPACK_EXAMPLE
 #define MODPACK_EXAMPLE
 
-#include "_example.dm"
+#include "_expanded_culture_descriptor.dm"
 
 // Далее просто включай свой код
 // #include "code/something.dm"
 
 #endif
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+// BEGIN_INCLUDE
+#include "_expanded_culture_descriptor.dm"
+#include "code\_culture.dm"
+#include "code\_language.dm"
+#include "code\_location.dm"
+#include "code\alain.dm"
+#include "code\arabic.dm"
+#include "code\chinese.dm"
+#include "code\culture.dm"
+#include "code\cultures_adherent.dm"
+#include "code\cultures_diona.dm"
+#include "code\cultures_human.dm"
+#include "code\cultures_ipc.dm"
+#include "code\cultures_serpentid.dm"
+#include "code\cultures_skrell.dm"
+#include "code\cultures_unathi.dm"
+#include "code\cultures_vox.dm"
+#include "code\euro.dm"
+#include "code\factions_adherent.dm"
+#include "code\factions_human.dm"
+#include "code\factions_ipc.dm"
+#include "code\factions_skrell.dm"
+#include "code\factions_unathi.dm"
+#include "code\factions_vox.dm"
+#include "code\german.dm"
+#include "code\indian.dm"
+#include "code\lirris.dm"
+#include "code\lizard.dm"
+#include "code\locations_adherent.dm"
+#include "code\locations_diona.dm"
+#include "code\locations_human.dm"
+#include "code\locations_ipc.dm"
+#include "code\locations_serpentids.dm"
+#include "code\locations_skrell.dm"
+#include "code\locations_unathi.dm"
+#include "code\locations_vox.dm"
+#include "code\machine.dm"
+#include "code\religions_human.dm"
+#include "code\religions_skrell.dm"
+#include "code\religions_unathi.dm"
+#include "code\religions_vox.dm"
+#include "code\russian.dm"
+#include "code\selenian.dm"
+#include "code\spanish.dm"
+#include "code\station.dm"
+// END_INCLUDE
