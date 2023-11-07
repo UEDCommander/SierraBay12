@@ -1,5 +1,5 @@
-#ifndef MODPACK_EXAMPLE
-#define MODPACK_EXAMPLE
+#ifndef EXPANDED_CULTURE_DESCRIPTOR
+#define EXPANDED_CULTURE_DESCRIPTOR
 
 #include "_expanded_culture_descriptor.dm"
 
@@ -15,7 +15,6 @@
 // BEGIN_PREFERENCES
 // END_PREFERENCES
 // BEGIN_INCLUDE
-#include "_expanded_culture_descriptor.dm"
 #include "code\_culture.dm"
 #include "code\_language.dm"
 #include "code\_location.dm"
