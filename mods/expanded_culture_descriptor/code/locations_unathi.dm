@@ -1,4 +1,4 @@
-/singleton/cultural_info/location/tersten
+/singleton/cultural_info/location/unathi_tersten
 	name = HOME_SYSTEM_UNATHI_TERSTEN
 	nickname = "Терстен"
 	description = "Терстен распахнул свои объятия перед Унати вслед за наступлением золотого века. Хотя кланы по-прежнему пользуются значительной \
