@@ -1,6 +1,6 @@
 /singleton/cultural_info/location/stateless
 	nickname = "Апатрид"
-	description = "Некторые люди возникают просто из ниоткуда...  Нет правительства или организации, что постояли бы за ваши права."
+	description = "Некоторые разумные возникают просто из ниоткуда...  Нет правительства или организации, что постояли бы за ваши права."
 	ruling_body = "Отсутствует"
 
 /singleton/cultural_info/location/other

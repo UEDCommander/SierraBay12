@@ -31,6 +31,8 @@
 #include "code\locations_human.dm"
 #include "code\locations_ipc.dm"
 #include "code\locations_unathi.dm"
+#include "code\loadout_xeno.dm"
+#include "code\passport.dm"
 #include "code\russian.dm"
 #include "code\selenian.dm"
 #include "code\spanish.dm"

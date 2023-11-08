@@ -133,4 +133,4 @@
 		TAG_FACTION =   list(FACTION_OTHER),
 		TAG_RELIGION =  list(RELIGION_OTHER)
 	)
-	
+
