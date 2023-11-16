@@ -6,14 +6,6 @@
 // Далее просто включай свой код
 // #include "code/something.dm"
 
-// BEGIN_INTERNALS
-// END_INTERNALS
-// BEGIN_FILE_DIR
-#define FILE_DIR .
-// END_FILE_DIR
-// BEGIN_PREFERENCES
-// END_PREFERENCES
-// BEGIN_INCLUDE
 #include "code\_culture.dm"
 #include "code\alain.dm"
 #include "code\arabic.dm"
@@ -37,6 +29,5 @@
 #include "code\selenian.dm"
 #include "code\spanish.dm"
 #include "code\tajara_culture.dm"
-// END_INCLUDE
 
 #endif
