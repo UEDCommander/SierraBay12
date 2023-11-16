@@ -40,4 +40,8 @@
 #define FACTION_POSITRONICS   "Positronic Union"
 
 #define HOME_SYSTEM_ROOT  "Root"
+
+#define LANGUAGE_HUMAN_LORRIMAN		"Lirris"
+#define LANGUAGE_HUMAN_AVALON		"Alain"
+#define LANGUAGE_HUMAN_MIRANIAN		"Miranian"
 // EXPANDED_CULTURE_DESCRIPTOR - End

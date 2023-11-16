@@ -1,6 +1,3 @@
-/singleton/cultural_info
-	var/nickname
-	
 /singleton/cultural_info/get_text_details()
 	. = list()
 	var/list/spoken_langs = get_spoken_languages()
