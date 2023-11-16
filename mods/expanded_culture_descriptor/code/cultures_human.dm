@@ -42,7 +42,8 @@
 	Будучи представителем неоаристократии, собственная семья для вас важнее всего, а к представителям других вы относитесь менее гостеприимно. \
 	Акцент на социальный статус и роскошь сформировали ваш декадентный образ жизни, и вы с неохотой покидаете свою родину."
 	economic_power = 1.3
-	secondary_langs = list (LANGUAGE_HUMAN_EURO,
+	secondary_langs = list(
+		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_HUMAN_CHINESE,
 		LANGUAGE_HUMAN_ARABIC,
 		LANGUAGE_HUMAN_INDIAN,
@@ -50,7 +51,8 @@
 		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_SPACER,
 		LANGUAGE_GUTTER,
-		LANGUAGE_SIGN)
+		LANGUAGE_SIGN
+	)
 
 /singleton/cultural_info/culture/human/lord_lower
 	name = CULTURE_HUMAN_LORDLOW
@@ -60,7 +62,8 @@
 	Не имея каких-либо политических свобод, вы бы предпочли покинуть свою родину. \
 	Несмотря на огромный разрыв между вами и высшими лорданианами, вы также извращены мыслями о богатстве и почете."
 	economic_power = 1
-	secondary_langs = list (LANGUAGE_HUMAN_EURO,
+	secondary_langs = list(
+		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_HUMAN_CHINESE,
 		LANGUAGE_HUMAN_ARABIC,
 		LANGUAGE_HUMAN_INDIAN,
@@ -68,7 +71,8 @@
 		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_SPACER,
 		LANGUAGE_GUTTER,
-		LANGUAGE_SIGN)
+		LANGUAGE_SIGN
+	)
 
 /singleton/cultural_info/culture/human/miranian
 	name = CULTURE_HUMAN_MIRANIAN
@@ -79,7 +83,8 @@
 	Сегодня Мирания является концентратором науки и технологий на фронтире, особенно в сфере вооружений и кораблестроения."
 	economic_power = 0.9
 	language = LANGUAGE_HUMAN_MIRANIAN
-	secondary_langs = list (LANGUAGE_HUMAN_EURO,
+	secondary_langs = list(
+		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_HUMAN_CHINESE,
 		LANGUAGE_HUMAN_ARABIC,
 		LANGUAGE_HUMAN_INDIAN,
@@ -87,7 +92,8 @@
 		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_SPACER,
 		LANGUAGE_GUTTER,
-		LANGUAGE_SIGN)
+		LANGUAGE_SIGN
+	)
 
 /singleton/cultural_info/culture/human/nyxian
 	name = CULTURE_HUMAN_NYXIAN
@@ -96,7 +102,8 @@
 	Расположение здесь единственного известного форонового гиганта - Эребуса, привело к возведению бесчисленных холдингов транс-звездных корпораций и активности пиратов, колонизаторов, работорговцев и других подобных лиц, одним из которых вы, скорее всего, и являетесь. \
 	Население системы многокультурно и здесь можно встретить все слои общества, от честных шахтеров до закаленных преступников, просто желающих разбогатеть."
 	economic_power = 1
-	secondary_langs = list (LANGUAGE_HUMAN_EURO,
+	secondary_langs = list(
+		LANGUAGE_HUMAN_EURO,
 		LANGUAGE_HUMAN_CHINESE,
 		LANGUAGE_HUMAN_ARABIC,
 		LANGUAGE_HUMAN_INDIAN,
@@ -104,4 +111,5 @@
 		LANGUAGE_HUMAN_RUSSIAN,
 		LANGUAGE_SPACER,
 		LANGUAGE_GUTTER,
-		LANGUAGE_SIGN)
+		LANGUAGE_SIGN
+	)

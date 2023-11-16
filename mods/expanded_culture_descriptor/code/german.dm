@@ -15,6 +15,6 @@
 	)
 	space_chance = 70
 	syllables = list(
-	"sieg", "mensch", "tag", "buch", "haus", "boot", "heu", "te", "ge", "fahr", "lö", "schen", "mee", "re", "el", "er", "was", "ser", "grü", "ße", "kat", "ze",
-	 "cker", "Bürs", "te", "ung", "trau", "schöns", "blech", "schwis", "rei", "scho", "zeich", "nen", "nien", "der", "unter", "heil", "ö", "ü", "ß", "ße"
+		"sieg", "mensch", "tag", "buch", "haus", "boot", "heu", "te", "ge", "fahr", "lö", "schen", "mee", "re", "el", "er", "was", "ser", "grü", "ße", "kat", "ze",
+		"cker", "Bürs", "te", "ung", "trau", "schöns", "blech", "schwis", "rei", "scho", "zeich", "nen", "nien", "der", "unter", "heil", "ö", "ü", "ß", "ße"
 	)
