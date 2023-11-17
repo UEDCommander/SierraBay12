@@ -1,5 +1,5 @@
 /datum/species/unathi
-	additional_available_cultural_info = list(
+	extended_cultural_info = list(
 		TAG_CULTURE = list(
 			CULTURE_UNATHI_TERSTEN
 		),

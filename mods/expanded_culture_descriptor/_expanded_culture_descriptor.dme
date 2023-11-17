@@ -29,6 +29,7 @@
 #include "code\language\russian.dm"
 #include "code\language\selenian.dm"
 #include "code\language\spanish.dm"
+#include "code\species\species.dm"
 #include "code\species\station.dm"
 #include "code\species\machine.dm"
 #include "code\species\lizard.dm"

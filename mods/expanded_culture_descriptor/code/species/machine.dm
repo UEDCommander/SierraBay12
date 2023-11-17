@@ -1,5 +1,5 @@
 /datum/species/machine
-	additional_available_cultural_info = list(
+	extended_cultural_info = list(
 		TAG_HOMEWORLD = list(
 			HOME_SYSTEM_ROOT
 		),
