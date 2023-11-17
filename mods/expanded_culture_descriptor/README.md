@@ -75,9 +75,6 @@ ID мода: EXPANDED_CULTURE_DESCRIPTOR
 - `mods/_master_files/code/modules/culture_descriptor/religion/religions_skrell.dm`: `/singleton/cultural_info/religion/warble`
 - `mods/_master_files/code/modules/culture_descriptor/religion/religions_unathi.dm`: `/singleton/cultural_info/religion/unathi`, `/singleton/cultural_info/religion/unathi_precursors`, `/singleton/cultural_info/religion/unathi_strat`, `/singleton/cultural_info/religion/unathi_lights`, `/singleton/cultural_info/religion/unathi_markesh`, `/singleton/cultural_info/religion/unathi_ancestor`, `/singleton/cultural_info/religion/unathi_aga_eakhe`
 - `mods/_master_files/code/modules/culture_descriptor/religion/religions_vox.dm`: `/singleton/cultural_info/religion/vox`
-- `mods/_master_files/code/modules/species/station/lizard.dm`: `/datum/species/unathi`
-- `mods/_master_files/code/modules/species/station/machine.dm`: `/datum/species/machine`
-- `mods/_master_files/code/modules/species/station/station.dm`: `/datum/species/human`
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
