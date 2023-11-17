@@ -30,7 +30,11 @@
 		LAZYADD(job_titles, "none")
 	// [SIERRA-EDIT] - EXPANDED_CULTURE_DESCRIPTOR - Перевод здесь, потому что переопределение в мастер файлах ломает hidden_valid_jobs. Увы.
 	// description = "You have been trained by Xynergy to [name]. This makes you suitable for the following roles: [english_list(job_titles)]." // SIERRA-EDIT - ORIGINAL
-	var/grade = copytext("[name]",7)
+	var/grade = name
+	if(findtext_char("[name]","Grade")==0)
+		crash_with("Не удалось получить класс ГБС для формирования описания - вероятно, были изменены дефайны классов ГБС")
+	else
+		grade = copytext_char("[name]",7)
 	description = "Вы были обучены корпорацией Xynergy в соответствии с классом [grade] и пригодны для исполнения обязанностей следующих категорий: [english_list(job_titles)]."
 	// [SIERRA-EDIT]
 
