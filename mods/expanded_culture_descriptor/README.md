@@ -38,6 +38,7 @@ ID мода: EXPANDED_CULTURE_DESCRIPTOR
 - `code/modules/client/preference_setup/background/03_records.dm`: `/datum/category_item/player_setup_item/background/records/content(mob/user)`, `/datum/category_item/player_setup_item/background/records/OnTopic(href,list/href_list, mob/user)`
 - `code/modules/culture_descriptor/location/_location.dm`: `/singleton/cultural_info/location/get_text_details()`
 - `code/modules/culture_descriptor/culture/cultures_serpentid.dm`: `/singleton/cultural_info/culture/nabber/New()`
+- `code/modules/species/species.dm`: `/datum/species/New()`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -75,7 +76,6 @@ ID мода: EXPANDED_CULTURE_DESCRIPTOR
 - `mods/_master_files/code/modules/culture_descriptor/religion/religions_skrell.dm`: `/singleton/cultural_info/religion/warble`
 - `mods/_master_files/code/modules/culture_descriptor/religion/religions_unathi.dm`: `/singleton/cultural_info/religion/unathi`, `/singleton/cultural_info/religion/unathi_precursors`, `/singleton/cultural_info/religion/unathi_strat`, `/singleton/cultural_info/religion/unathi_lights`, `/singleton/cultural_info/religion/unathi_markesh`, `/singleton/cultural_info/religion/unathi_ancestor`, `/singleton/cultural_info/religion/unathi_aga_eakhe`
 - `mods/_master_files/code/modules/culture_descriptor/religion/religions_vox.dm`: `/singleton/cultural_info/religion/vox`
-- `mods/_master_files/code/modules/species/species.dm`: `/datum/species/New()`
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
