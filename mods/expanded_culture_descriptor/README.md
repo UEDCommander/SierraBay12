@@ -49,7 +49,7 @@ ID мода: EXPANDED_CULTURE_DESCRIPTOR
 
 ### Оверрайды
 
-- `mods/_master_files/code/modules/culture_descriptor/_culture.dm`: `/singleton/cultural_info/get_text_details()`, `/singleton/cultural_info/get_description(header, append, verbose = TRUE)`
+- `mods/_master_files/code/modules/culture_descriptor/_culture.dm`: `/singleton/cultural_info/get_text_details()`, `/singleton/cultural_info/get_description()`
 - `mods/_master_files/code/modules/culture_descriptor/culture/cultures_adherent.dm`: `/singleton/cultural_info/culture/adherent`
 - `mods/_master_files/code/modules/culture_descriptor/culture/cultures_diona.dm`: `/singleton/cultural_info/culture/diona`
 - `mods/_master_files/code/modules/culture_descriptor/culture/cultures_human.dm`: `/singleton/cultural_info/culture/generic`, `/singleton/cultural_info/culture/human`, `/singleton/cultural_info/culture/human/martian_surfacer`, `/singleton/cultural_info/culture/human/martian_tunneller`, `/singleton/cultural_info/culture/human/luna_poor`, `/singleton/cultural_info/culture/human/luna_rich`, `/singleton/cultural_info/culture/human/venusian_upper`, `/singleton/cultural_info/culture/human/venusian_surfacer`, `/singleton/cultural_info/culture/human/belter`, `/singleton/cultural_info/culture/human/earthling`, `/singleton/cultural_info/culture/human/ceti_north`, `/singleton/cultural_info/culture/human/ceti_south`, `/singleton/cultural_info/culture/human/ceti_interstate`, `/singleton/cultural_info/culture/human/spacer_core`, `/singleton/cultural_info/culture/human/spacer_frontier`, `/singleton/cultural_info/culture/human/confederate`, `/singleton/cultural_info/culture/human/gaia`, `/singleton/cultural_info/culture/human/other`, `/singleton/cultural_info/culture/human/vatgrown`

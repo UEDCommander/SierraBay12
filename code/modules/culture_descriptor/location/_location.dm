@@ -15,9 +15,9 @@
 	// if(!isnull(distance)) // SIERRA-EDIT - ORIGINAL
 		// . += "<b>Distance from Sol:</b> [distance]." // SIERRA-EDIT - ORIGINAL
 	if(!isnull(capital))
-		. += "<b>Столица:</b> [capital]." 
+		. += "<b>Столица:</b> [capital]."
 	if(!isnull(ruling_body))
-		. += "<b>Принадлежность:</b> [ruling_body]." 
+		. += "<b>Принадлежность:</b> [ruling_body]."
 	if(!isnull(distance))
 		. += "<b>Расстояние от Солнца:</b> [distance]." 
 	// [/SIERRA-EDIT]
