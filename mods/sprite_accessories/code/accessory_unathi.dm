@@ -2,7 +2,7 @@
 
 /datum/sprite_accessory/facial_hair/species_unathi
 	name = "Horn Chin"
-	icon = 'mods/infinty_sprite_accessories/icons/unathi_facial.dmi'
+	icon = 'mods/sprite_accessories/icons/unathi_facial.dmi'
 	icon_state = "facial_chinhorns"
 	gender = NEUTER
 	blend = ICON_MULTIPLY
