@@ -3,7 +3,5 @@
 
 #include "_loadout_items.dm"
 #include "code/shoes.dm"
-#include "code/lists/cloaks.dm"
-#include "code/lists/xenowear.dm"
 
 #endif
