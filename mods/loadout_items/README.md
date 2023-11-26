@@ -39,8 +39,7 @@ ID мода: LOADOUT_ITEMS
 ### Оверрайды
 
 - `mods/_master_files/code/modules/clothing/spacesuits/spacesuits.dm`:
-  - `/obj/item/clothing/suit/space`
-  - `valid_accessory_slots`
+  - `/obj/item/clothing/suit/space/var/valid_accessory_slots`
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
