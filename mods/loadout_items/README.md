@@ -38,9 +38,7 @@ ID мода: LOADOUT_ITEMS
 
 ### Оверрайды
 
-- `mods/_master_files/code/modules/clothing/spacesuits/spacesuits.dm`:
-  - `/obj/item/clothing/suit/space`
-  - `valid_accessory_slots`
+- Отсутствуют
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
@@ -61,7 +59,10 @@ ID мода: LOADOUT_ITEMS
 
 ### Используемые файлы, не содержащиеся в модпаке
 
-- `maps/sierra/loadout/~mods/loadout_items/xenowear.dm`
+- `maps/sierra/~mods/loadout_items/items/clothing/spacesuits/spacesuits.dm`
+- `maps/sierra/~mods/loadout_items/loadout/lists/cloaks.dm`
+- `maps/sierra/~mods/loadout_items/loadout/lists/xenowear.dm`
+
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,
   принадлежащей этому конкретному моду, он должен быть упомянут здесь.
