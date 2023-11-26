@@ -131,9 +131,6 @@
 	#include "loadout/loadout_uniform.dm"
 	#include "loadout/loadout_xeno.dm"
 	#include "loadout/~defines.dm"
-	
-	#include "loadout/~mods/loadout_items/cloaks.dm"
-	#include "loadout/~mods/loadout_items/xenowear.dm"
 
 	// --- MAP FILES --- //
 

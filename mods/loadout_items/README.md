@@ -59,9 +59,10 @@ ID мода: LOADOUT_ITEMS
 
 ### Используемые файлы, не содержащиеся в модпаке
 
-- `maps/sierra/~mods/loadout_items/items/clothing/spacesuits/spacesuits.dm`
-- `maps/sierra/~mods/loadout_items/loadout/lists/cloaks.dm`
-- `maps/sierra/~mods/loadout_items/loadout/lists/xenowear.dm`
+- `packs/infinity/~mods/loadout_items/items/clothing/spacesuits/spacesuits.dm`
+- `packs/infinity/~mods/loadout_items/items/clothing/accessories/cloak.dm`
+- `packs/infinity/~mods/loadout_items/loadout/lists/cloaks.dm`
+- `packs/infinity/~mods/loadout_items/loadout/lists/xenowear.dm`
 
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,

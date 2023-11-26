@@ -84,4 +84,10 @@
 #include "structures\ladder_mobile.dm"
 #include "structures\signs.dm"
 #include "structures\table_presets.dm"
+
+// MODS
+#include "~mods/loadout_items/items/clothing/spacesuits/spacesuits.dm"
+#include "~mods/loadout_items/items/clothing/accessories/cloak.dm"
+#include "~mods/loadout_items/loadout/lists/cloaks.dm"
+#include "~mods/loadout_items/loadout/lists/xenowear.dm"
 #endif
