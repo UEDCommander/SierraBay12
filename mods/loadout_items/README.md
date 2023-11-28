@@ -38,7 +38,8 @@ ID мода: LOADOUT_ITEMS
 
 ### Оверрайды
 
-- Отсутствуют
+- `mods/_master_files/code/modules/clothing/spacesuits/spacesuits.dm`:
+  - `/obj/item/clothing/suit/space/var/valid_accessory_slots`
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
@@ -48,7 +49,8 @@ ID мода: LOADOUT_ITEMS
 
 ### Дефайны
 
-- Отсутствуют
+- `code/__defines/~mods/~master_defines.dm`:
+  - `ACCESSORY_SLOT_OVER`
 <!--
   Если требовалось добавить какие-либо дефайны, укажи файлы,
   в которые ты их добавил, а также перечисли имена.
@@ -59,10 +61,7 @@ ID мода: LOADOUT_ITEMS
 
 ### Используемые файлы, не содержащиеся в модпаке
 
-- `packs/infinity/~mods/loadout_items/items/clothing/spacesuits/spacesuits.dm`
-- `packs/infinity/~mods/loadout_items/items/clothing/accessories/cloak.dm`
-- `packs/infinity/~mods/loadout_items/loadout/lists/cloaks.dm`
-- `packs/infinity/~mods/loadout_items/loadout/lists/xenowear.dm`
+- Отсутствуют
 
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,
