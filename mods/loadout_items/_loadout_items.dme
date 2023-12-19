@@ -2,9 +2,12 @@
 #define MODPACK_LOADOUT_ITEMS
 
 #include "_loadout_items.dm"
+#include "code/accessory.dm"
 #include "code/cloak.dm"
 #include "code/shoes.dm"
+#include "code/lists/accessories.dm"
 #include "code/lists/cloaks.dm"
 #include "code/lists/xenowear.dm"
+#include "code/loadout/loadout.dm"
 
 #endif
