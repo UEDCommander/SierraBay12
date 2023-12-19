@@ -5,7 +5,6 @@
 #include "__defines\guns.dm"
 
 // DATUMS
-#include "_datums\loadout\gears.dm"
 #include "_datums\reagents\experimental.dm"
 
 // HELPERS
@@ -19,14 +18,11 @@
 #include "clothing\head\berets.dm"
 #include "clothing\head\head.dm"
 #include "clothing\head\helmet.dm"
-#include "clothing\accessories\accessory_hand.dm"
 #include "clothing\accessories\armor.dm"
 #include "clothing\accessories\badge.dm"
 #include "clothing\accessories\collar.dm"
-#include "clothing\accessories\locket_custom.dm"
 #include "clothing\accessories\other.dm"
 #include "clothing\accessories\pins.dm"
-#include "clothing\accessories\torch.dm"
 #include "clothing\gloves\gloves.dm"
 #include "clothing\suits\armor.dm"
 #include "clothing\suits\under_bluebrig.dm"
@@ -41,7 +37,6 @@
 #include "items\chairs.dm"
 #include "items\chemistry.dm"
 #include "items\grown.dm"
-#include "items\modular_computer.dm"
 #include "items\multimeter.dm"
 #include "items\powertools.dm"
 #include "items\towels.dm"
@@ -77,7 +72,6 @@
 #include "structures\chairs.dm"
 #include "structures\curtains.dm"
 #include "structures\holoplants.dm"
-#include "structures\mag_tables.dm"
 #include "structures\l3closets.dm"
 #include "structures\ladder_mobile.dm"
 #include "structures\signs.dm"
