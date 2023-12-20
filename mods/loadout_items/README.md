@@ -30,6 +30,10 @@ ID мода: LOADOUT_ITEMS
 
 - `code/controllers/subsystems/jobs.dm`:
   - `/datum/controller/subsystem/jobs/proc/equip_custom_loadout`
+- `maps/sierra/sierra_ranks.dm`:
+  - `/datum/mil_branch/civilian`
+  - `/datum/mil_branch/contractor`
+  - `/datum/mil_branch/employee`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.

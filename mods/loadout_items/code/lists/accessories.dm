@@ -2,12 +2,11 @@
 	display_name = "Expeditionary Corps rank badges selection"
 	description = "An insignia denoting wearer's rank within the SCG Expeditionary Corps."
 	path = /obj/item/clothing/accessory
+	allowed_branches = list(/datum/mil_branch/contractor)
 	allowed_factions = list(FACTION_EXPEDITIONARY, FACTION_CORPORATE)
 
 /datum/gear/accessory/solgov_ec_rank/New()
 	..()
-	if(GLOB.using_map.path == "sierra")
-		allowed_branches = list(/datum/mil_branch/contractor)
 	var/solgovranks = list()
 	solgovranks["ranks (E-1 apprentice explorer)"] = /obj/item/clothing/accessory/solgov/rank/ec/enlisted
 	solgovranks["ranks (E-3 explorer)"] = /obj/item/clothing/accessory/solgov/rank/ec/enlisted/e3
