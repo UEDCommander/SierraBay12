@@ -6,7 +6,7 @@
 
 /datum/gear/accessory/solgov_ec_rank/New()
 	..()
-	if(/datum/mil_branch/contractor)
+	if(GLOB.using_map.path == "sierra")
 		allowed_branches = list(/datum/mil_branch/contractor)
 	var/solgovranks = list()
 	solgovranks["ranks (E-1 apprentice explorer)"] = /obj/item/clothing/accessory/solgov/rank/ec/enlisted
