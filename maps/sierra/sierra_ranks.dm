@@ -96,8 +96,7 @@
  *  Branches
  *  ========
  */
- // [SIERRA-REMOVE] - LOADOUT_ITEMS - Перемещено в _master_files
- /*
+
 /datum/mil_branch/civilian
 	name = "Civilian"
 	name_short = "civ"
@@ -153,8 +152,7 @@
 		/datum/mil_rank/civ/offduty,
 		/datum/mil_rank/civ/synthetic
 	)
- */
-  // [/SIERRA-REMOVE]
+
 
 /datum/mil_rank/grade() //useless, for sure
 	. = ..()
