@@ -402,9 +402,7 @@ SUBSYSTEM_DEF(jobs)
 				if(permitted && G.allowed_factions)
 					var/singleton/cultural_info/faction = H.get_cultural_value(TAG_FACTION)
 					var/facname = faction ? faction.name : "Unset"
-					if(facname in G.allowed_factions)
-						permitted = 1
-					else
+					if(!(facname in G.allowed_factions))
 						permitted = 0
 				// [/SIERRA-ADD]
 

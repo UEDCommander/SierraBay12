@@ -491,7 +491,7 @@
 	if(!G.path)
 		return FALSE
 
-	if(length(G.allowed_roles) || length(G.allowed_skills) || length(G.allowed_branches) || length(G.allowed_factions))
+	if(length(G.allowed_roles) || length(G.allowed_skills) || length(G.allowed_branches))
 		// Branches are dependent on jobs so here it is
 		ASSERT(SSjobs.initialized)
 		var/list/jobs = new
@@ -539,11 +539,11 @@
 			if (!branch_ok)
 				return FALSE
 				
-		if (length(G.allowed_factions))
-			var/singleton/cultural_info/faction = SSculture.get_culture(pref.cultural_info[TAG_FACTION])
-			var/facname = faction ? faction.name : "Unset"
-			if(!(facname in G.allowed_factions))
-				return FALSE
+	if (length(G.allowed_factions))
+		var/singleton/cultural_info/faction = SSculture.get_culture(pref.cultural_info[TAG_FACTION])
+		var/facname = faction ? faction.name : "Unset"
+		if(!(facname in G.allowed_factions))
+			return FALSE
 				
 
 	if(G.whitelisted && !(pref.species in G.whitelisted))
