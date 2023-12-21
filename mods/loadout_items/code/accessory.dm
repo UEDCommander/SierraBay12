@@ -5,7 +5,7 @@
 	w_class = ITEM_SIZE_TINY
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'maps/torch/icons/mob/unathi/onmob_accessories_solgov_unathi.dmi'
-		)
+	)
 
 /*********
 ranks - ec

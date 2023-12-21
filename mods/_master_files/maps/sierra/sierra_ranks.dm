@@ -6,7 +6,6 @@
 	name = "Contractor"
 	name_short = "contr"
 
-
 /datum/mil_branch/employee
 	name = "Employee"
 	name_short = "empl"

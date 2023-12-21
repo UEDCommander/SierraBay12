@@ -398,7 +398,7 @@ SUBSYSTEM_DEF(jobs)
 						if(!H.skill_check(required,G.allowed_skills[required]))
 							permitted = 0
 							
-				// [SIERRA-ADD] - LOADOUT_ITEMS - Поддержка фракционных предметов в лодауте. Не хочу лезть в сабсистему через мастерфайлы. 
+				// [SIERRA-ADD] - LOADOUT_ITEMS - Поддержка фракционных предметов в лодауте
 				if(permitted && G.allowed_factions)
 					var/singleton/cultural_info/faction = H.get_cultural_value(TAG_FACTION)
 					var/facname = faction ? faction.name : "Unset"
