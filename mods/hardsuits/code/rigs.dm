@@ -1,4 +1,5 @@
 /obj/item/clothing/head/helmet/space/rig/command/exploration/New()
+	. = ..()
 	species_restricted |= list(SPECIES_HUMAN,SPECIES_SKRELL,SPECIES_TAJARA,SPECIES_UNATHI,SPECIES_IPC)
 	sprite_sheets ^= list(
 		SPECIES_SKRELL,

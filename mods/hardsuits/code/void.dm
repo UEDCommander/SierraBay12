@@ -1,5 +1,6 @@
 //SECURITY
 /obj/item/clothing/head/helmet/space/void/security/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -9,6 +10,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/security/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -18,6 +20,7 @@
 		)
 
 /obj/item/clothing/head/helmet/space/void/security/alt/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -27,6 +30,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/security/alt/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -37,6 +41,7 @@
 
 //ENGINEERING
 /obj/item/clothing/head/helmet/space/void/engineering/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -46,6 +51,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/engineering/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -55,6 +61,7 @@
 		)
 
 /obj/item/clothing/head/helmet/space/void/engineering/alt/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -64,6 +71,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/engineering/alt/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -74,6 +82,7 @@
 
 //ATMOS
 /obj/item/clothing/head/helmet/space/void/atmos/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -83,6 +92,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/atmos/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -92,6 +102,7 @@
 		)
 
 /obj/item/clothing/head/helmet/space/void/atmos/alt/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -101,6 +112,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/atmos/alt/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -111,6 +123,7 @@
 		
 //MEDICAL
 /obj/item/clothing/head/helmet/space/void/medical/alt/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -120,6 +133,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/medical/alt/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI
 		)
@@ -130,6 +144,7 @@
 
 //PILOT
 /obj/item/clothing/head/helmet/space/void/pilot/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI,
 		SPECIES_SKRELL
@@ -151,6 +166,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/pilot/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI,
 		SPECIES_SKRELL
@@ -173,6 +189,7 @@
 
 //EXPLORER
 /obj/item/clothing/head/helmet/space/void/exploration/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI,
 		SPECIES_SKRELL
@@ -194,6 +211,7 @@
 		)
 
 /obj/item/clothing/suit/space/void/exploration/New()
+	. = ..()
 	sprite_sheets ^= list(
 		SPECIES_UNATHI,
 		SPECIES_SKRELL
