@@ -3333,6 +3333,7 @@
 #include "mods\_master_files\code\modules\client\asset_cache.dm"
 #include "mods\_master_files\code\modules\client\preferences_persist.dm"
 #include "mods\_master_files\code\modules\clothing\spacesuits\spacesuits.dm"
+#include "mods\_master_files\code\modules\clothing\spacesuits\void\void.dm"
 #include "mods\_master_files\code\modules\culture_descriptor\_culture.dm"
 #include "mods\_master_files\code\modules\culture_descriptor\culture\cultures_adherent.dm"
 #include "mods\_master_files\code\modules\culture_descriptor\culture\cultures_diona.dm"
@@ -3365,5 +3366,6 @@
 #include "mods\_master_files\code\modules\power\gravitygenerator.dm"
 #include "mods\_master_files\maps\mapsystem\maps.dm"
 #include "mods\_master_files\maps\sierra\sierra_ranks.dm"
+#include "mods\_master_files\maps\sierra\items\rigs.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE
