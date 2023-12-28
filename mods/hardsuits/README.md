@@ -1,7 +1,7 @@
 
 #### Список PRов:
 
-- https://github.com/SierraBay/SierraBay12/pull/1442
+- https://github.com/SierraBay/SierraBay12/pull/1717
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
@@ -11,7 +11,7 @@
 <!-- Название мода. Не важно на русском или на английском. -->
 ## Hardsuits
 
-ID мода: MODPACK_HARDSUITS
+ID мода: HARDSUITS
 <!--
   Название модпака прописными буквами, СОЕДИНЁННЫМИ_ПОДЧЁРКИВАНИЕМ,
   которое ты будешь использовать для обозначения файлов.
@@ -69,7 +69,8 @@ ID мода: MODPACK_HARDSUITS
 
 ### Используемые файлы, не содержащиеся в модпаке
 
-- `mods/_master_files/maps/sierra/items/rigs.dm`
+- `packs/infinity/icons/obj/clothing/species/erosan/hats.dmi`
+- `packs/infinity/icons/obj/clothing/species/erosan/suits.dmi`
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,
   принадлежащей этому конкретному моду, он должен быть упомянут здесь.
