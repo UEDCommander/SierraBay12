@@ -3,9 +3,6 @@
 
 #include "_hardsuits.dm"
 
-// Далее просто включай свой код
-// #include "code/something.dm"
-
 #include "code/void.dm"
 #include "code/rigs.dm"
 #include "code/suit_cycler_units.dm"

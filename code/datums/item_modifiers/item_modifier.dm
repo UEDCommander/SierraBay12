@@ -18,7 +18,7 @@
 	I.icon = type_setup[SETUP_OBJ_SHEET]
 	I.item_icons = type_setup[SETUP_ONMOB_SHEET]
 	I.icon_state = type_setup[SETUP_ICON_STATE]
-	 // [SIERRA-REMOVE] - MODPACK_HARDSUITS - Поддержка модульного изменения внешнего вида костюмов
+	 // [SIERRA-REMOVE] - HARDSUITS - Поддержка модульного изменения внешнего вида костюмов
 	 /*
 	I.sprite_sheets_obj = type_setup[SETUP_SPECIES_OBJ]
 	I.sprite_sheets = type_setup[SETUP_SPECIES_ONMOB]
