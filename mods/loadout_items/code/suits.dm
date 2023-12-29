@@ -161,3 +161,9 @@
 	item_icons = list(slot_head_str = 'maps/sierra/icons/mob/onmob/onmob_suit.dmi')
 	icon_state = "black_kimono"
 	item_state = "black_kimono"
+	
+/obj/item/clothing/suit/storage/toggle/fr_jacket/highvis
+	name = "first responder jacket"
+	icon = 'mods/loadout_icons/icons/obj_suit.dmi'
+	item_icons = list(slot_wear_suit_str = 'mods/loadout_icons/icons/onmob_suit.dmi')
+	sprite_sheets[SPECIES_UNATHI] = 'mods/loadout_icons/icons/unathi/onmob_suit_unathi.dmi'

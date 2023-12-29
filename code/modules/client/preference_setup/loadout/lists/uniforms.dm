@@ -170,6 +170,10 @@
 	corps += /obj/item/clothing/under/skinner
 	corps += /obj/item/clothing/under/dais
 	corps += /obj/item/clothing/under/rank/roboticist/bishop
+	 // [SIERRA-ADD] - LOADOUT_ITEMS - Новые варианты формы для ЭКшников
+	corps += /obj/item/clothing/under/solgov/utility/expeditionary
+	corps += /obj/item/clothing/under/solgov/utility/expeditionary/officer
+	 // [/SIERRA-ADD]
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(corps)
 
 /datum/gear/uniform/corp_exec
