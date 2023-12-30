@@ -162,12 +162,12 @@
 	 // [SIERRA-EDIT] - LOADOUT_ITEMS - Порт спрайта first responder jacket с инфинити в качестве нового предмета
 	 // gear_tweaks += new/datum/gear_tweak/path/specified_types_args(/obj/item/clothing/suit/storage/toggle/fr_jacket, /obj/item/clothing/suit/storage/toggle/fr_jacket/ems, /obj/item/clothing/suit/surgicalapron, /obj/item/clothing/suit/storage/toggle/fr_jacket/emrs) // SIERRA-EDIT - ORIGINAL
 	var/medicoats = list()
-	medicoats += /obj/item/clothing/suit/storage/toggle/fr_jacket
+	medicoats["first responder jacket"] = /obj/item/clothing/suit/storage/toggle/fr_jacket
 	medicoats["first responder jacket (high-visibility)"] = /obj/item/clothing/suit/storage/toggle/fr_jacket/highvis
-	medicoats += /obj/item/clothing/suit/storage/toggle/fr_jacket/ems
-	medicoats += /obj/item/clothing/suit/surgicalapron
-	medicoats += /obj/item/clothing/suit/storage/toggle/fr_jacket/emrs
-	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(medicoats)
+	medicoats["EMS jacket"] = /obj/item/clothing/suit/storage/toggle/fr_jacket/ems
+	medicoats["surgical apron"] = /obj/item/clothing/suit/surgicalapron
+	medicoats["medical jacket"] = /obj/item/clothing/suit/storage/toggle/fr_jacket/emrs
+	gear_tweaks += new/datum/gear_tweak/path(medicoats)
 	 // [/SIERRA-EDIT]
 
 /datum/gear/suit/trenchcoat

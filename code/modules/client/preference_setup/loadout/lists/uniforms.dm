@@ -171,8 +171,8 @@
 	corps += /obj/item/clothing/under/dais
 	corps += /obj/item/clothing/under/rank/roboticist/bishop
 	 // [SIERRA-ADD] - LOADOUT_ITEMS - Новые варианты формы для ЭКшников
-	corps += /obj/item/clothing/under/solgov/utility/expeditionary
-	corps += /obj/item/clothing/under/solgov/utility/expeditionary/officer
+	corps += /obj/item/clothing/under/scg_expeditonary
+	corps += /obj/item/clothing/under/scg_expeditonary/officer
 	 // [/SIERRA-ADD]
 	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(corps)
 

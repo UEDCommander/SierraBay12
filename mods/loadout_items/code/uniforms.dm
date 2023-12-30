@@ -93,3 +93,23 @@
 	item_icons = list(slot_w_uniform_str = 'mods/loadout_items/icons/onmob_under.dmi')
 	icon_state = "blueshift"
 	item_state = "blueshift"
+
+/obj/item/clothing/under/scg_expeditonary
+	name = "Expeditionary Corps uniform"
+	desc = "The utility uniform of the SCG Expeditionary Corps, made from biohazard resistant material. This one has silver trim."
+	icon = 'maps/torch/icons/obj/obj_under_solgov.dmi'
+	item_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_under_solgov.dmi')
+	icon_state = "blackutility_crew"
+	item_state = "bl_suit"
+	worn_state = "blackutility_crew"
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'maps/torch/icons/mob/unathi/onmob_under_solgov_unathi.dmi'
+		)
+	siemens_coefficient = 0.8
+	gender_icons = 1
+
+/obj/item/clothing/under/scg_expeditonary/officer
+	name = "Expeditionary Corps officer's uniform"
+	desc = "The utility uniform of the SCG Expeditionary Corps, made from biohazard resistant material. This one has gold trim."
+	icon_state = "blackutility_com"
+	worn_state = "blackutility_com"
