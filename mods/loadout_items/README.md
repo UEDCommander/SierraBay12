@@ -32,10 +32,6 @@ ID мода: LOADOUT_ITEMS
 
 - `code/controllers/subsystems/jobs.dm`:
   - `/datum/controller/subsystem/jobs/proc/equip_custom_loadout`
-- `code/modules/client/preference_setup/loadout/lists/suits.dm`:
-  - `/datum/gear/suit/medcoat/New()`
-- `code/modules/client/preference_setup/loadout/lists/uniforms.dm`:
-  - `/datum/gear/uniform/corporate/New()`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -75,7 +71,7 @@ ID мода: LOADOUT_ITEMS
 - `maps\torch\icons\mob\onmob_accessories_solgov.dmi`
 - `maps\torch\icons\obj\obj_under_solgov.dmi`
 - `maps\torch\icons\mob\onmob_under_solgov.dmi`
-- `maps\torch\icons\mob\unathi/onmob_under_solgov_unathi.dmi`
+- `maps\torch\icons\mob\unathi\onmob_under_solgov_unathi.dmi`
 
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,
