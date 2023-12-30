@@ -168,4 +168,5 @@
 	item_icons = list(slot_wear_suit_str = 'mods/loadout_items/icons/onmob_suit.dmi')
 
 /obj/item/clothing/suit/storage/toggle/fr_jacket/highvis/New()
+	. = ..()
 	sprite_sheets[SPECIES_UNATHI] = 'mods/loadout_items/icons/unathi/onmob_suit_unathi.dmi'
