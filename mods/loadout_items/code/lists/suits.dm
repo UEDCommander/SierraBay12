@@ -49,7 +49,6 @@
 /datum/gear/suit/sierra_medcoat
 	display_name = "medical suit selection"
 	path = /obj/item/clothing/suit
-	allowed_roles = MEDICAL_ROLES
 	flags = GEAR_HAS_NO_CUSTOMIZATION
 
 /datum/gear/suit/sierra_medcoat/New()

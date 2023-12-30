@@ -1,6 +1,9 @@
 /datum/gear/suit/medcoat
 	allowed_roles = MEDICAL_ROLES
 
+/datum/gear/suit/sierra_medcoat
+	allowed_roles = MEDICAL_ROLES
+
 /datum/gear/suit/poncho
 	display_name = "poncho selection"
 	path = /obj/item/clothing/suit/poncho/colored
