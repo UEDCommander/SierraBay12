@@ -113,3 +113,47 @@
 	desc = "The utility uniform of the SCG Expeditionary Corps, made from biohazard resistant material. This one has gold trim."
 	icon_state = "blackutility_com"
 	worn_state = "blackutility_com"
+	
+// Unathi garnments
+
+/obj/item/clothing/under/medic/paramedic
+	name = "first responder uniform"
+	desc = "Light and bulky paramedic jumpsuit with bright markings. It's too big to fit anyone, but unathi."
+	icon = 'mods/loadout_items/icons/obj_under.dmi'
+	item_icons = list(slot_w_uniform_str = 'mods/loadout_items/icons/onmob_under.dmi')
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'mods/loadout_items/icons/onmob_under.dmi'
+	)
+	species_restricted  = list(SPECIES_UNATHI)
+	icon_state = "unathi_paramedic"
+	item_state = "unathi_paramedic"
+	worn_state = "unathi_paramedic"
+	//rolled_sleeves = 0
+
+/obj/item/clothing/under/security/desert
+	name = "desert jumpsuit"
+	desc = "A bulky and light jumpsuit designed for use in the desert. Unathi use it to withstand scorhing heat rays when \"Burning Mother\" at it's zenith, something that their scales cannot handle. It's too big to fit anyone, but unathi."
+	icon = 'mods/loadout_items/icons/obj_under.dmi'
+	item_icons = list(slot_w_uniform_str = 'mods/loadout_items/icons/onmob_under.dmi')
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'mods/loadout_items/icons/onmob_under.dmi'
+	)
+	species_restricted  = list(SPECIES_UNATHI)
+	icon_state = "desertuniform"
+	item_state = "desertuniform"
+	worn_state = "desertuniform"
+	rolled_sleeves = 0  //0 = unrolled, 1 = rolled, -1 = cannot be toggled
+
+/obj/item/clothing/under/security/officer
+	name = "large security uniform"
+	desc = "An aftermarket modification of a regular desert jumpsuit, favored by unathi mercenaries. This one provides a bit more physical protection as if unathi ever needed that. It's too big to fit anyone, but unathi."
+	icon = 'mods/loadout_items/icons/obj_under.dmi'
+	item_icons = list(slot_w_uniform_str = 'mods/loadout_items/icons/onmob_under.dmi')
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'mods/loadout_items/icons/onmob_under.dmi'
+	)
+	species_restricted  = list(SPECIES_UNATHI)
+	icon_state = "unsecuniform"
+	item_state = "unsecuniform"
+	worn_state = "unsecuniform"
+	rolled_sleeves = 0  //0 = unrolled, 1 = rolled, -1 = cannot be toggled
