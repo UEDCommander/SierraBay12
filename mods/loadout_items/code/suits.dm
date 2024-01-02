@@ -194,7 +194,9 @@
 		/obj/item/ammo_casing,
 		/obj/item/melee/baton,
 		/obj/item/handcuffs,
-		/obj/item/tank/emergency
+		/obj/item/tank/oxygen_emergency,
+		/obj/item/tank/oxygen_emergency_extended,
+		/obj/item/tank/nitrogen_emergency
 	)
 	siemens_coefficient = 0.9
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
