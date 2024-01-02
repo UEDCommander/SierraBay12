@@ -90,5 +90,5 @@
 	allowed_roles = RESEARCH_ROLES
 	path = /obj/item/clothing/under/retro/science
 
-/obj/item/clothing/under/security/officer
+/datum/gear/suit/unathi/officer_uniform
 	allowed_roles = SECURITY_ROLES
