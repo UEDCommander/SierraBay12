@@ -104,7 +104,7 @@
 	worn_state = "blackutility_crew"
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'maps/torch/icons/mob/unathi/onmob_under_solgov_unathi.dmi'
-		)
+	)
 	siemens_coefficient = 0.8
 	gender_icons = 1
 
