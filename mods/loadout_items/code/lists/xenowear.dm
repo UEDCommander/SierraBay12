@@ -5,7 +5,6 @@
 /datum/gear/suit/unathi/officer_uniform
 	display_name = "(Unathi) large security uniform"
 	path = /obj/item/clothing/under/security/officer
-	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/officer, /datum/job/detective, /datum/job/security_assistant)
 	cost = 1
 	slot = slot_w_uniform
 
@@ -24,7 +23,6 @@
 /datum/gear/suit/unathi/security_cap
 	display_name = "(Unathi) big security cap"
 	path = /obj/item/clothing/head/cap/sec
-	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/officer, /datum/job/detective, /datum/job/security_assistant)
 	cost = 1
 	slot = slot_head
 
@@ -37,7 +35,6 @@
 /datum/gear/suit/unathi/security_jacket
 	display_name = "(Unathi) security jacket"
 	path = /obj/item/clothing/suit/storage/security
-	allowed_roles = list(/datum/job/hos, /datum/job/warden, /datum/job/officer, /datum/job/detective, /datum/job/security_assistant)
 	cost = 1
 	slot = slot_wear_suit
 

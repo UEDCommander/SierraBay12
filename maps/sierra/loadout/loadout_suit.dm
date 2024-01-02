@@ -88,3 +88,6 @@
 /datum/gear/suit/snakeskin
 	display_name = "snakeskin coat"
 	path = /obj/item/clothing/suit/snakeskin
+
+/datum/gear/suit/unathi/security_jacket
+	allowed_roles = SECURITY_ROLES
