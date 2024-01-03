@@ -130,7 +130,6 @@
 	icon_state = "unathi_paramedic"
 	item_state = "unathi_paramedic"
 	worn_state = "unathi_paramedic"
-	//rolled_sleeves = 0
 
 /obj/item/clothing/under/security/desert
 	name = "desert jumpsuit"
