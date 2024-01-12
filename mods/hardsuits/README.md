@@ -29,8 +29,10 @@ ID мода: HARDSUITS
 
 ### Изменения *кор кода*
 
-- `code/datums/item_modifiers/item_modifier.dm`:
-  - `/singleton/item_modifier/proc/RefitItem()`
+- `code/game/machinery/suit_cycler_units.dm`:
+  - `/obj/machinery/suit_cycler/engineering`
+  - `/obj/machinery/suit_cycler/security`
+  - `/obj/machinery/suit_cycler/pilot`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -45,9 +47,6 @@ ID мода: HARDSUITS
   - `/obj/item/rig/exploration/var/chest_type`
   - `/obj/item/rig/exploration/var/boot_type`
   - `/obj/item/rig/exploration/var/glove_type`
-- `mods/_master_files/code/modules/clothing/spacesuits/void/void.dm`:
-  - `/obj/item/clothing/head/helmet/space/void/var/sprite_sheet_obj`
-  - `/obj/item/clothing/suit/space/void/var/sprite_sheet_obj`
 
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
