@@ -30,9 +30,9 @@ ID мода: HARDSUITS
 ### Изменения *кор кода*
 
 - `code/game/machinery/suit_cycler_units.dm`:
-  - `/obj/machinery/suit_cycler/engineering`
-  - `/obj/machinery/suit_cycler/security`
-  - `/obj/machinery/suit_cycler/pilot`
+  - `/obj/machinery/suit_cycler/engineering/var/available_modifications`
+  - `/obj/machinery/suit_cycler/security/var/available_modifications`
+  - `/obj/machinery/suit_cycler/pilot/var/available_modifications`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
