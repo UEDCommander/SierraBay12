@@ -1,4 +1,12 @@
-#include "../../../code/datums/item_modifiers/_defines.dm"
+#define SETUP_NAME "name"
+#define SETUP_OBJ_SHEET "icon"
+#define SETUP_ONMOB_SHEET "item_icons"
+#define SETUP_ICON_STATE "icon_state"
+#define SETUP_ITEM_STATE "item_state"
+#define SETUP_ITEM_STATE_SLOTS "item_state_slots"
+#define SETUP_SPECIES_OBJ "sprite_sheets_obj"
+#define SETUP_SPECIES_ONMOB "sprite_sheets"
+
 
 /singleton/item_modifier/space_suit/sierra
 	name = "Standard"
@@ -206,4 +214,11 @@
 	suit_setup[SETUP_SPECIES_OBJ][SPECIES_SKRELL] = 'mods/hardsuits/icons/voidsuits/obj_suit_skrell.dmi'
 	suit_setup[SETUP_SPECIES_ONMOB][SPECIES_SKRELL] = 'mods/hardsuits/icons/voidsuits/onmob_suit_skrell.dmi'
 
-#include "../../../code/datums/item_modifiers/~defines.dm"
+#undef SETUP_NAME
+#undef SETUP_OBJ_SHEET
+#undef SETUP_ONMOB_SHEET
+#undef SETUP_ICON_STATE
+#undef SETUP_ITEM_STATE
+#undef SETUP_ITEM_STATE_SLOTS
+#undef SETUP_SPECIES_OBJ
+#undef SETUP_SPECIES_ONMOB

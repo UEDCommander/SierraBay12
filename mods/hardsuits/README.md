@@ -70,8 +70,6 @@ ID мода: HARDSUITS
 
 - `packs/infinity/icons/obj/clothing/species/erosan/hats.dmi`
 - `packs/infinity/icons/obj/clothing/species/erosan/suits.dmi`
-- `code/datums/item_modifiers/_defines.dm`
-- `code/datums/item_modifiers/~defines.dm`
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,
   принадлежащей этому конкретному моду, он должен быть упомянут здесь.
