@@ -1,3 +1,5 @@
+#include "../../../code/datums/item_modifiers/_defines.dm"
+
 /singleton/item_modifier/space_suit/sierra
 	name = "Standard"
 	type_setups = list(
@@ -183,7 +185,7 @@
 	var/suit_setup = type_setups[/obj/item/clothing/suit/space/void]
 	suit_setup[SETUP_NAME] = "streamlined medical voidsuit"
 	suit_setup[SETUP_ICON_STATE] = "rig-medicalalt"
-	
+
 /singleton/item_modifier/space_suit/sol/sierra/exploration
 	name = "Explorer"
 
@@ -203,3 +205,5 @@
 	suit_setup[SETUP_SPECIES_OBJ][SPECIES_UNATHI] = 'mods/hardsuits/icons/voidsuits/obj_suit_unathi.dmi'
 	suit_setup[SETUP_SPECIES_OBJ][SPECIES_SKRELL] = 'mods/hardsuits/icons/voidsuits/obj_suit_skrell.dmi'
 	suit_setup[SETUP_SPECIES_ONMOB][SPECIES_SKRELL] = 'mods/hardsuits/icons/voidsuits/onmob_suit_skrell.dmi'
+
+#include "../../../code/datums/item_modifiers/~defines.dm"
