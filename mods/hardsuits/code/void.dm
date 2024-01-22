@@ -9,7 +9,7 @@
 
 
 /singleton/item_modifier/space_suit/sierra
-	name = "Standard"
+	name = "Standard, NT"
 	type_setups = list(
 		/obj/item/clothing/head/helmet/space = list(
 			SETUP_NAME = "voidsuit helmet",
@@ -47,7 +47,7 @@
 
 
 /singleton/item_modifier/space_suit/sierra/engineering
-	name = "Engineering"
+	name = "Engineering, NT"
 
 /singleton/item_modifier/space_suit/sierra/engineering/Initialize()
 	. = ..()
@@ -66,7 +66,7 @@
 
 
 /singleton/item_modifier/space_suit/sierra/security
-	name = "Security"
+	name = "Security, NT"
 
 /singleton/item_modifier/space_suit/sierra/security/Initialize()
 	. = ..()
@@ -100,7 +100,7 @@
 
 
 /singleton/item_modifier/space_suit/sierra/atmos
-	name = "Atmos"
+	name = "Atmos, NT"
 
 /singleton/item_modifier/space_suit/sierra/atmos/Initialize()
 	. = ..()
@@ -119,7 +119,7 @@
 
 
 /singleton/item_modifier/space_suit/sierra/pilot
-	name = "Pilot"
+	name = "Pilot, NT"
 
 /singleton/item_modifier/space_suit/sierra/pilot/Initialize()
 	. = ..()
@@ -143,7 +143,7 @@
 	suit_setup[SETUP_SPECIES_ONMOB][SPECIES_SKRELL] = 'mods/hardsuits/icons/voidsuits/onmob_suit_skrell.dmi'
 
 /singleton/item_modifier/space_suit/sol/sierra
-	name = "Standard, SolGov"
+	name = "Standard, SCG"
 	type_setups = list(
 		/obj/item/clothing/head/helmet/space = list(
 			SETUP_NAME = "voidsuit helmet",
@@ -195,7 +195,7 @@
 	suit_setup[SETUP_ICON_STATE] = "rig-medicalalt"
 
 /singleton/item_modifier/space_suit/sol/sierra/exploration
-	name = "Explorer"
+	name = "Explorer, SCG"
 
 /singleton/item_modifier/space_suit/sol/sierra/exploration/Initialize()
 	. = ..()
