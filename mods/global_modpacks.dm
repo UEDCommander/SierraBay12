@@ -20,6 +20,7 @@
 #include "nyc_posters/_nyc_posters.dme"
 #include "ssinput/_ssinput.dme"
 #include "statusbar/_statusbar.dme"
+#include "unathi/_unathi.dme"
 #include "utf8/_utf8.dme"
 
 #include "../packs/sierra-tweaks/_pack.dm"
