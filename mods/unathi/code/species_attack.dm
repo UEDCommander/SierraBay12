@@ -7,7 +7,7 @@
 	damage = 1
 	delay = 30
 
-/datum/unarmed_attack/bite/venom/yeosa/apply_effects(var/mob/living/carbon/human/user,var/mob/living/carbon/human/target,var/armour,var/attack_damage,var/zone)
+/datum/unarmed_attack/bite/venom/yeosa/apply_effects(mob/living/carbon/human/user, mob/living/carbon/human/target, armour, attack_damage, zone)
 	..()
 	if(istype(src) && target && ishuman(target))
 		var/mob/living/carbon/human/H = target

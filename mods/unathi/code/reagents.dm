@@ -6,7 +6,7 @@
 	target_organ = BP_LIVER
 	strength = 1
 
-/datum/reagent/toxin/yeosvenom/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+/datum/reagent/toxin/yeosvenom/affect_blood(mob/living/carbon/M, alien, removed)
 	if(prob(volume*10))
-		M.confused = max(M.confused, 10)
+		M.set_confused(10)
 	..()
