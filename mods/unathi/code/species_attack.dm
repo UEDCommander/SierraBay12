@@ -3,7 +3,7 @@
 	var/poison_type = /datum/reagent/toxin/yeosvenom
 	attack_verb = list("bit", "sank their fangs into")
 	attack_sound = 'sound/weapons/bite.ogg'
-	attack_name = "venomous bite 2"
+	attack_name = "venomous bite"
 	damage = 1
 	delay = 30
 

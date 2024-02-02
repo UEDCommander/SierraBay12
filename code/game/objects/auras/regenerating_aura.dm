@@ -120,7 +120,10 @@
 	var/toggle_blocked_until = 0 // A time
 
 /obj/aura/regenerating/human/unathi/can_toggle()
-	return FALSE
+	// [SIERRA-EDIT] - UNATHI - Механ с инфинити
+	// return FALSE // SIERRA-EDIT - ORIGINAL
+	return TRUE
+	// [/SIERRA-EDIT]
 
 // Default return; we're just logging.
 /obj/aura/regenerating/human/unathi/aura_check_weapon(obj/item/weapon, mob/attacker, click_params)
