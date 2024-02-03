@@ -29,8 +29,7 @@ ID мода: UNATHI
 
 ### Изменения *кор кода*
 
-- `code/game/objects/auras/regenerating_aura.dm`:
-  - `/obj/aura/regenerating/human/unathi/can_toggle()`
+Отсутствуют
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
