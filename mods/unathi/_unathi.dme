@@ -1,10 +1,8 @@
-#ifndef UNATHI
-#define UNATHI
+#ifndef MODPACK_UNATHI
+#define MODPACK_UNATHI
+
 
 #include "_unathi.dm"
-
-// Далее просто включай свой код
-// #include "code/something.dm"
 
 #include "code/reagents.dm"
 #include "code/species.dm"
