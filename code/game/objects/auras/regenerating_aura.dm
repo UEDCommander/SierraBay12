@@ -122,7 +122,9 @@
 /obj/aura/regenerating/human/unathi/can_toggle()
 	// [SIERRA-EDIT] - UNATHI - Механ с инфинити
 	// return FALSE // SIERRA-EDIT - ORIGINAL
-	return TRUE
+	if(world.time < toggle_blocked_until)
+		return FALSE
+	return ..()
 	// [/SIERRA-EDIT]
 
 // Default return; we're just logging.
