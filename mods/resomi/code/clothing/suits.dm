@@ -8,6 +8,11 @@
 	body_parts_covered = UPPER_TORSO|ARMS|LOWER_TORSO|LEGS
 	species_restricted = list(SPECIES_RESOMI)
 
+/obj/item/clothing/suit/storage/toggle/resomicoat/New()
+	..()
+	allowed += /obj/item/device/suit_cooling_unit/mini
+
+
 /obj/item/clothing/suit/storage/toggle/resomicoat/white
  	icon_state = "white_resomicoat"
  	//icon_open = "white_resomicoat_open"
@@ -41,6 +46,11 @@
 	if(pockets)
 		qdel(pockets)
 	pockets = new/obj/item/storage/internal/pouch(src, slots*BASE_STORAGE_COST(ITEM_SIZE_SMALL))
+
+/obj/item/clothing/suit/storage/resomicloak/New()
+	..()
+	allowed += /obj/item/device/suit_cooling_unit/mini
+
 
 /obj/item/clothing/suit/storage/resomicloak/standard/black_grey
 	name = "black and grey cloak"
@@ -273,6 +283,11 @@
 	icon_state = "tesh_cloak_dretrowave"
 	body_parts_covered = UPPER_TORSO|ARMS|LOWER_TORSO
 
+/obj/item/clothing/suit/storage/resomicloak_alt/New()
+	..()
+	allowed += /obj/item/device/suit_cooling_unit/mini
+
+
 /obj/item/clothing/suit/storage/resomicloak_alt/tesh_cloak_dretrowave
 	name = "resomi cloak dretrowave"
 	icon_state = "tesh_cloak_dretrowave"
@@ -392,6 +407,11 @@
 	icon_state = "tesh_beltcloak_bo"
 	body_parts_covered = UPPER_TORSO|ARMS|LOWER_TORSO
 	species_restricted = list(SPECIES_RESOMI)
+
+/obj/item/clothing/suit/storage/resomicloak_belted/New()
+	..()
+	allowed += /obj/item/device/suit_cooling_unit/mini
+
 
 /obj/item/clothing/suit/storage/resomicloak_belted/standard/black_orange
 	name = "black belted cloak (orange)"
@@ -581,6 +601,11 @@
 	if(pockets)
 		qdel(pockets)
 	pockets = new/obj/item/storage/internal/pouch(src, slots*BASE_STORAGE_COST(ITEM_SIZE_SMALL))
+
+/obj/item/clothing/suit/storage/hooded/resomi/New()
+	..()
+	allowed += /obj/item/device/suit_cooling_unit/mini
+
 
 /obj/item/clothing/suit/storage/hooded/resomi/on_update_icon()
 	..()

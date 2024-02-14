@@ -17,6 +17,7 @@
 #include "code/datum/body.dm"
 #include "code/datum/gear.dm"
 #include "code/datum/language.dm"
+#include "code/datum/misc.dm"
 #include "code/datum/resomi_culture.dm"
 #include "code/datum/species.dm"
 
