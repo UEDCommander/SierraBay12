@@ -1,10 +1,6 @@
 
 #### Список PRов:
 
-- https://github.com/SierraBay/SierraBay12/pull/1562
-- https://github.com/SierraBay/SierraBay12/pull/1643
-- https://github.com/SierraBay/SierraBay12/pull/1650
-- https://github.com/SierraBay/SierraBay12/pull/1761
 - https://github.com/SierraBay/SierraBay12/pull/1991
 <!--
   Ссылки на PRы, связанные с модом:
@@ -13,9 +9,9 @@
 -->
 
 <!-- Название мода. Не важно на русском или на английском. -->
-## Предметы лодаута
+## Unathi
 
-ID мода: LOADOUT_ITEMS
+ID мода: UNATHI
 <!--
   Название модпака прописными буквами, СОЕДИНЁННЫМИ_ПОДЧЁРКИВАНИЕМ,
   которое ты будешь использовать для обозначения файлов.
@@ -23,7 +19,9 @@ ID мода: LOADOUT_ITEMS
 
 ### Описание мода
 
-Модулярно добавленные в билд предметы для лодаута.
+Мод включает особые механики рас унати и йоза'унати, доступные на билде Infinity.
+- Изменена механика ядовитого укуса йоза'унати - теперь вводит реагент яда вместо нанесения токсичного урона;
+- Возвращена механика переключения регенерации унати.
 <!--
   Что он делает, что добавляет: что, куда, зачем и почему - всё здесь.
   А также любая полезная информация.
@@ -31,8 +29,7 @@ ID мода: LOADOUT_ITEMS
 
 ### Изменения *кор кода*
 
-- `code/controllers/subsystems/jobs.dm`:
-  - `/datum/controller/subsystem/jobs/proc/equip_custom_loadout`
+Отсутствуют
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
@@ -43,8 +40,7 @@ ID мода: LOADOUT_ITEMS
 
 ### Оверрайды
 
-- `mods/_master_files/code/modules/clothing/spacesuits/spacesuits.dm`:
-  - `/obj/item/clothing/suit/space/var/valid_accessory_slots`
+Отсутствуют
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
   Здесь указываются оверрайды в твоём моде и папке `_master_files`
@@ -54,8 +50,7 @@ ID мода: LOADOUT_ITEMS
 
 ### Дефайны
 
-- `code/__defines/~mods/~master_defines.dm`:
-  - `ACCESSORY_SLOT_OVER`
+Отсутствуют
 <!--
   Если требовалось добавить какие-либо дефайны, укажи файлы,
   в которые ты их добавил, а также перечисли имена.
@@ -66,14 +61,7 @@ ID мода: LOADOUT_ITEMS
 
 ### Используемые файлы, не содержащиеся в модпаке
 
-- `maps\sierra\loadout\loadout_gloves.dm`
-- `maps\torch\icons\obj\obj_accessories_solgov.dmi`
-- `maps\torch\icons\mob\unathi\onmob_accessories_solgov_unathi.dmi`
-- `maps\torch\icons\mob\onmob_accessories_solgov.dmi`
-- `maps\torch\icons\obj\obj_under_solgov.dmi`
-- `maps\torch\icons\mob\onmob_under_solgov.dmi`
-- `maps\torch\icons\mob\unathi\onmob_under_solgov_unathi.dmi`
-
+Отсутствуют
 <!--
   Будь то немодульный файл или модульный файл, который не содержится в папке,
   принадлежащей этому конкретному моду, он должен быть упомянут здесь.
