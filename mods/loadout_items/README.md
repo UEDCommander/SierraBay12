@@ -5,6 +5,7 @@
 - https://github.com/SierraBay/SierraBay12/pull/1643
 - https://github.com/SierraBay/SierraBay12/pull/1650
 - https://github.com/SierraBay/SierraBay12/pull/1761
+- https://github.com/SierraBay/SierraBay12/pull/1991
 - https://github.com/SierraBay/SierraBay12/pull/2015
 <!--
   Ссылки на PRы, связанные с модом:

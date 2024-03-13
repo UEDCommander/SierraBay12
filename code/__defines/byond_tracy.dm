@@ -50,8 +50,8 @@ GLOBAL_VAR_INIT(profiler_enabled, FALSE)
 	set category = "Debug"
 	set desc = "Starts the tracy profiler and writes the data to the server's data directory."
 
-	// if(!check_rights(R_HOST))
-	// 	return
+	if(!check_rights(R_HOST))
+		return
 
 	switch(alert("Are you sure? Tracy will remain active until the server restarts.", "Tracy Init", "No", "Yes"))
 		if("Yes")
@@ -62,8 +62,8 @@ GLOBAL_VAR_INIT(profiler_enabled, FALSE)
 	set category = "Debug"
 	set desc = "Stop the tracy profiler."
 
-	// if(!check_rights(R_HOST))
-	// 	return
+	if(!check_rights(R_HOST))
+		return
 
 	switch(alert("Are you sure?", "Tracy Stop", "No", "Yes"))
 		if("Yes")
