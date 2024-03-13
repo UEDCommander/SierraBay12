@@ -83,7 +83,10 @@ var/global/list/gear_datums = list()
 	if(!length(gear_to_check.whitelisted))
 		return TRUE
 
-	return is_any_alien_whitelisted(preference_mob(), gear_to_check.whitelisted)
+	// [SIERRA-EDIT] - LOADOUT_ITEMS - Временный костыль как фикс не появляющихся у ксеносов предметов ксенолодаута
+	// return is_any_alien_whitelisted(preference_mob(), gear_to_check.whitelisted) // SIERRA-EDIT - ORIGINAL
+	return TRUE
+	// [/SIERRA-EDIT]
 
 /datum/category_item/player_setup_item/loadout/proc/skill_check(list/jobs, list/skills_required)
 	for(var/datum/job/J as anything in jobs)
