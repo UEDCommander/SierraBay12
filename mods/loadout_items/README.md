@@ -6,6 +6,7 @@
 - https://github.com/SierraBay/SierraBay12/pull/1650
 - https://github.com/SierraBay/SierraBay12/pull/1761
 - https://github.com/SierraBay/SierraBay12/pull/1991
+- https://github.com/SierraBay/SierraBay12/pull/2015
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
@@ -33,6 +34,8 @@ ID мода: LOADOUT_ITEMS
 
 - `code/controllers/subsystems/jobs.dm`:
   - `/datum/controller/subsystem/jobs/proc/equip_custom_loadout`
+- `code/modules/client/preference_setup/loadout/loadout.dm`:
+  - `/datum/category_item/player_setup_item/loadout/proc/is_gear_valid`
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
   они должны быть указаны здесь.
