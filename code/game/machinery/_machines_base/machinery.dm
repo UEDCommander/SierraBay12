@@ -94,11 +94,11 @@
 		var/initial_damage_percentage = Percent(get_max_health() - prior_health, get_max_health(), 0)
 		var/damage_percentage = get_damage_percentage()
 		if (damage_percentage >= 75 && initial_damage_percentage < 75)
-			visible_message("\The [src] looks like it's about to break!" )
+			visible_message(SPAN_DANGER("\The [src] looks like it's about to break!"))
 		else if (damage_percentage >= 50 && initial_damage_percentage < 50)
-			visible_message("\The [src] looks seriously damaged!" )
+			visible_message(SPAN_DANGER("\The [src] looks seriously damaged!" ))
 		else if (damage_percentage >= 25 && initial_damage_percentage < 25)
-			visible_message("\The [src] shows signs of damage!" )
+			visible_message(SPAN_DANGER("\The [src] shows signs of damage!" ))
 
 /obj/machinery/Destroy()
 	if(istype(wires))
@@ -236,7 +236,7 @@
 // If you don't call parent in this proc, you must make all appropriate checks yourself.
 // If you do, you must respect the return value.
 /obj/machinery/attack_hand(mob/user)
-	if((. = ..())) // Buckling, climbers, punching on harm; unlikely to return true.
+	if((. = ..())) // Buckling, climbers; unlikely to return true unless on harm intent and damage is dealt.
 		return
 	if(!CanPhysicallyInteract(user))
 		return FALSE // The interactions below all assume physical access to the machine. If this is not the case, we let the machine take further action.

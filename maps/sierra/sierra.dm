@@ -66,6 +66,8 @@
 	#include "items/papers.dm"
 	#include "items/rigs.dm"
 	#include "items/stamps.dm"
+	#include "items/pouches.dm"
+	#include "items/backpack.dm"
 
 	#include "items/clothing/clothing.dm"
 	#include "items/clothing/exploration.dm"
@@ -176,15 +178,19 @@
 	#include "../../mods/_maps/liberia/_map_liberia.dme"
 	#include "../../mods/_maps/sentinel/_map_sentinel.dme"
 	#include "../../mods/_maps/farfleet/_map_farfleet.dme"
+	#include "../../mods/_maps/hand/_map_hand.dme"
 
 	#include "../../mods/antagonists/_antagonists.dme"
 	#include "../../mods/bluespace_kitty/_bluespace_kitty.dme"
 	#include "../../mods/fancy_sofas/_fancy_sofas.dme"
+	#include "../../mods/guns/_guns.dme"
 	#include "../../mods/jukebox_tapes/_jukebox_tapes.dme"
 	#include "../../mods/legalese_language/_legalese.dme"
 	#include "../../mods/petting_zoo/_petting_zoo.dme"
 	#include "../../mods/screentips/_screentips.dme"
 	#include "../../mods/tajara/_tajara.dme"
+	#include "../../mods/sauna_props/_sauna_props.dme"
+	#include "../../mods/wyccbay_optimization/_wyccbay_optimization.dme"
 
 	// UNUSED MODS
 	// Keep them in ascending alphabetical order too, please
@@ -200,6 +206,7 @@
 
 	#include "../../packs/factions/iccgn/_pack.dm"
 	#include "../../packs/factions/scga/_pack.dm"
+	#include "../../packs/factions/fa/_pack.dm"
 	#include "../../packs/infinity/_pack.dm"
 	#include "../../packs/deepmaint/_pack.dm"
 
