@@ -81,3 +81,13 @@
 /datum/gear/clothing/cloak_hooded
 	display_name = "cloak, hooded"
 	path = /obj/item/clothing/accessory/cloak/hooded
+
+//Faction cloaks
+
+/datum/gear/clothing/cloak_zpci
+	display_name = "cloak, ZPCI"
+	path = /obj/item/clothing/accessory/cloak/zpci
+	allowed_branches = list(/datum/mil_branch/contractor)
+	required_factions = list(FACTION_ZPCI)
+
+//Misc cloaks

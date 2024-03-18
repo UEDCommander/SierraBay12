@@ -55,6 +55,8 @@ ranks - ec
 	desc = "Insignia denoting the rank of Lieutenant."
 	icon_state = "ecrank_o3"
 
+//Misc accessories
+
 /obj/item/clothing/accessory/scarf/fancy
 	name = "red striped scarf"
 	icon_state = "stripedredscarf"
@@ -77,6 +79,11 @@ ranks - ec
 /obj/item/clothing/accessory/scarf/fancy/christmas
 	name = "christmas scarf"
 	icon_state = "christmasscarf"
+
+/obj/item/clothing/accessory/armor_tag/zpci
+	name = "\improper ZPCI tag"
+	desc = "An armor tag with the words ZONE PROTECTION CONTROL INCORPORATED printed in cyan lettering on it."
+	icon_state = "pcrctag"
 
 // Press
 

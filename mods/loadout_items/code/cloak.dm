@@ -109,6 +109,15 @@
 	desc = "This cape is so much aged that you can almost think it's a relic."
 	icon_state = "antiquated_cape"
 
+/obj/item/clothing/accessory/cloak/zpci
+	name = "ZPCI cloak"
+	desc = "A formal cape of a ZPCI operative, used as part of the Order's parade uniform. Usually worn on one shoulder."
+	icon_state = "zpci_cloak"
+	slot = ACCESSORY_SLOT_INSIGNIA
+	sprite_sheets = list(
+		SPECIES_UNATHI = 'mods/loadout_items/icons/unathi/onmob_accessory_unathi.dmi'
+	)
+
 /obj/item/clothing/accessory/cloak/hooded
 	var/obj/item/clothing/head/hood
 	var/hoodtype = null
