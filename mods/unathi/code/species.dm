@@ -1,3 +1,5 @@
 /datum/species/unathi/yeosa/New()
-	unarmed_types ^= list(/datum/unarmed_attack/bite/venom, /datum/unarmed_attack/bite/venom/yeosa)
+	if (/datum/unarmed_attack/bite/venom in unarmed_types)
+		unarmed_types -= /datum/unarmed_attack/bite/venom
+	unarmed_types += /datum/unarmed_attack/bite/venom/yeosa
 	. = ..()
