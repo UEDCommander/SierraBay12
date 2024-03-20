@@ -67,8 +67,6 @@
 	#include "items/rigs.dm"
 	#include "items/stamps.dm"
 	#include "items/pouches.dm"
-	#include "items/backpack.dm"
-	#include "items/vendomat.dm"
 
 	#include "items/clothing/clothing.dm"
 	#include "items/clothing/exploration.dm"
@@ -136,6 +134,7 @@
 	#include "loadout/loadout_suit.dm"
 	#include "loadout/loadout_tactical.dm"
 	#include "loadout/loadout_uniform.dm"
+	#include "loadout/loadout_xeno.dm"
 	#include "loadout/~defines.dm"
 
 	// --- MAP FILES --- //
@@ -185,16 +184,14 @@
 	#include "../../mods/jukebox_tapes/_jukebox_tapes.dme"
 	#include "../../mods/legalese_language/_legalese.dme"
 	#include "../../mods/petting_zoo/_petting_zoo.dme"
+	#include "../../mods/resomi/_resomi.dme"
 	#include "../../mods/screentips/_screentips.dme"
 	#include "../../mods/tajara/_tajara.dme"
-	#include "../../mods/sauna_props/_sauna_props.dme"
 
 	// UNUSED MODS
 	// Keep them in ascending alphabetical order too, please
 
 	// #include "../../mods/atmos_ret_field/_atm_ret_field.dme"
-	// #include "../../mods/resomi/_resomi.dme"
-	// #include "../../mods/_maps/miningpirate/_map_miningpirate.dme"
 
 	// Почему UNUSED MODS стоит хранить?
 	// Потому что никто не проверяет использование тех или иных файлов
