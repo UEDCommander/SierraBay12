@@ -47,7 +47,6 @@
 	blood_volume = 280
 	hunger_factor = DEFAULT_HUNGER_FACTOR * 1.5
 	taste_sensitivity = TASTE_SENSITIVE
-	pulse_rate_mod = 1.5
 	body_temperature = 314.15
 
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED | SPECIES_NO_FBP_CONSTRUCTION | SPECIES_NO_FBP_CHARGEN
@@ -126,7 +125,7 @@
 			CULTURE_HUMAN_MARSTUN,
 			CULTURE_HUMAN_PLUTO,
 			CULTURE_HUMAN_BELTER,
-			CULTURE_HUMAN_CETI,
+			CULTURE_HUMAN_CETII,
 			CULTURE_RESOMI_LOSTCOLONYRICH,
 			CULTURE_RESOMI_LOSTCOLONYPOOR,
 			//CULTURE_RESOMI_SAVEEL,
@@ -199,4 +198,5 @@
 		/singleton/emote/audible/cough/resomi,
 		/singleton/emote/audible/laugh/resomi,
 		/singleton/emote/audible/scream/resomi,
+		/singleton/emote/audible/sneeze/resomi,
 		)
