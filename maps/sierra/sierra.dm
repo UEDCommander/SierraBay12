@@ -134,7 +134,6 @@
 	#include "loadout/loadout_suit.dm"
 	#include "loadout/loadout_tactical.dm"
 	#include "loadout/loadout_uniform.dm"
-	#include "loadout/loadout_xeno.dm"
 	#include "loadout/~defines.dm"
 
 	// --- MAP FILES --- //
@@ -187,6 +186,7 @@
 	#include "../../mods/resomi/_resomi.dme"
 	#include "../../mods/screentips/_screentips.dme"
 	#include "../../mods/tajara/_tajara.dme"
+	#include "../../mods/sauna_props/_sauna_props.dme"
 
 	// UNUSED MODS
 	// Keep them in ascending alphabetical order too, please
