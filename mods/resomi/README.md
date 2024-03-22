@@ -32,6 +32,8 @@ ID мода: RESOMI
   - `/datum/gear/plush_toy/New()`
 - `code/modules/organs/external/_external_icons.dm`
   - `/obj/item/organ/external/on_update_icon()`
+- `mods/resomi/code/overrides.dm`
+  - `/mob/living/carbon/human/get_pulse_as_number()`
 
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
@@ -43,8 +45,7 @@ ID мода: RESOMI
 
 ### Оверрайды
 
-- `mods/resomi/code/overrides.dm`
-  - `/mob/living/carbon/human/get_pulse_as_number()`
+- `Отсутствуют`
 
 <!--
   Если ты добавлял новый модульный оверрайд, его нужно указать здесь.
