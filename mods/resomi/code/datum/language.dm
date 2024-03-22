@@ -14,6 +14,7 @@
 			"ci", "ri", "mi", "si", "ni", "ti", "li", "shi", "schi", "i", "i"
 		)
 	shorthand = "SCH"
+	has_written_form = TRUE
 
 
 /datum/language/resomi/get_random_name(gender)
