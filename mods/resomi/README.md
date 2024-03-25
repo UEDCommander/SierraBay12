@@ -34,6 +34,12 @@ ID мода: RESOMI
   - `/obj/item/organ/external/on_update_icon()`
 - `mods/resomi/code/overrides.dm`
   - `/mob/living/carbon/human/get_pulse_as_number()`
+- `code/modules/clothing/head/jobs.dm`
+  - `/obj/item/clothing/head/beret`
+  - `/obj/item/clothing/head/beret/Initialize()`
+  - `/obj/item/clothing/head/beret/equipped()`
+- `code/modules/clothing/masks/miscellaneous.dm`
+  - `/obj/item/clothing/mask/bandana/equipped()`
 
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
