@@ -710,71 +710,58 @@
 			apply_mode()
 			return TOPIC_REFRESH
 
-/obj/machinery/alarm/crowbar_act(mob/living/user, obj/item/tool)
-	. = ITEM_INTERACT_SUCCESS
-	if(buildstage != 1)
-		return
-	to_chat(user, "You start prying out the circuit.")
-	if(!tool.use_as_tool(src, user, 2 SECONDS, volume = 50, skill_path = SKILL_CONSTRUCTION, do_flags = DO_REPAIR_CONSTRUCT) || buildstage != 1)
-		return
-	to_chat(user, "You pry out the circuit!")
-	var/obj/item/airalarm_electronics/circuit = new /obj/item/airalarm_electronics()
-	circuit.dropInto(user.loc)
-	buildstage = 0
-	update_icon()
-
-/obj/machinery/alarm/screwdriver_act(mob/living/user, obj/item/tool)
-	. = ITEM_INTERACT_SUCCESS
-	if(buildstage != 2)
-		return
-	if(!tool.use_as_tool(src, user, volume = 50, do_flags = DO_REPAIR_CONSTRUCT))
-		return
-	wiresexposed = !wiresexposed
-	to_chat(user, "The wires have been [wiresexposed ? "exposed" : "unexposed"]")
-	update_icon()
-
-/obj/machinery/alarm/wrench_act(mob/living/user, obj/item/tool)
-	. = ITEM_INTERACT_SUCCESS
-	if(buildstage != 0)
-		return
-	if(!tool.use_as_tool(src, user, volume = 50, do_flags = DO_REPAIR_CONSTRUCT))
-		return
-	to_chat(user, "You remove the fire alarm assembly from the wall!")
-	var/obj/item/frame/air_alarm/frame = new /obj/item/frame/air_alarm(get_turf(user))
-	transfer_fingerprints_to(frame)
-	qdel(src)
-
-/obj/machinery/alarm/wirecutter_act(mob/living/user, obj/item/tool)
-	. = ITEM_INTERACT_SUCCESS
-	if(buildstage != 2)
-		return
-	if(!wiresexposed)
-		return
-	if(!tool.use_as_tool(src, user, volume = 50, do_flags = DO_REPAIR_CONSTRUCT))
-		return
-	user.visible_message(SPAN_WARNING("[user] has cut the wires inside [src]!"), "You have cut the wires inside [src].")
-	new/obj/item/stack/cable_coil(get_turf(src), 5)
-	buildstage = 1
-	update_icon()
-
 /obj/machinery/alarm/use_tool(obj/item/W, mob/living/user, list/click_params)
 	switch(buildstage)
 		if(2)
+			if (isScrewdriver(W))
+				wiresexposed = !wiresexposed
+				to_chat(user, "The wires have been [wiresexposed ? "exposed" : "unexposed"]")
+				update_icon()
+				return TRUE
+
+			if (wiresexposed && isWirecutter(W))
+				user.visible_message(SPAN_WARNING("[user] has cut the wires inside \the [src]!"), "You have cut the wires inside \the [src].")
+				playsound(src.loc, 'sound/items/Wirecutter.ogg', 50, 1)
+				new/obj/item/stack/cable_coil(get_turf(src), 5)
+				buildstage = 1
+				update_icon()
+				return TRUE
+
 			if (isid(W) || istype(W, /obj/item/modular_computer))
-				togglelock(user)
+				if(inoperable())
+					to_chat(user, "It does nothing")
+					return TRUE
+				if(allowed(usr) && !wires.IsIndexCut(AALARM_WIRE_IDSCAN))
+					locked = !locked
+					to_chat(user, SPAN_NOTICE("You [ locked ? "lock" : "unlock"] the Air Alarm interface."))
+				else
+					to_chat(user, SPAN_WARNING("Access denied."))
 				return TRUE
 
 		if(1)
 			if (isCoil(W))
 				var/obj/item/stack/cable_coil/C = W
 				if (C.use(5))
-					to_chat(user, SPAN_NOTICE("You wire [src]."))
+					to_chat(user, SPAN_NOTICE("You wire \the [src]."))
 					buildstage = 2
 					update_icon()
 					return TRUE
 				else
-					to_chat(user, SPAN_WARNING("You need 5 pieces of cable to do wire [src]."))
+					to_chat(user, SPAN_WARNING("You need 5 pieces of cable to do wire \the [src]."))
 					return TRUE
+
+			if (isCrowbar(W))
+				to_chat(user, "You start prying out the circuit.")
+				playsound(src.loc, 'sound/items/Crowbar.ogg', 50, 1)
+				if (!do_after(user, (W.toolspeed * 2) SECONDS, src, DO_REPAIR_CONSTRUCT))
+					return TRUE
+
+				to_chat(user, "You pry out the circuit!")
+				var/obj/item/airalarm_electronics/circuit = new /obj/item/airalarm_electronics()
+				circuit.dropInto(user.loc)
+				buildstage = 0
+				update_icon()
+				return TRUE
 
 		if(0)
 			if (istype(W, /obj/item/airalarm_electronics))
@@ -784,14 +771,15 @@
 				update_icon()
 				return TRUE
 
-	return ..()
+			if (isWrench(W))
+				to_chat(user, "You remove the fire alarm assembly from the wall!")
+				var/obj/item/frame/air_alarm/frame = new /obj/item/frame/air_alarm(get_turf(user))
+				transfer_fingerprints_to(frame)
+				playsound(src.loc, 'sound/items/Ratchet.ogg', 50, 1)
+				qdel(src)
+				return TRUE
 
-/obj/machinery/alarm/attack_hand_secondary(mob/living/user, list/modifiers)
-	. = ..()
-	if(. == SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN)
-		return
-	. = SECONDARY_ATTACK_CANCEL_ATTACK_CHAIN
-	togglelock(user)
+	return ..()
 
 /obj/machinery/alarm/examine(mob/user)
 	. = ..()
