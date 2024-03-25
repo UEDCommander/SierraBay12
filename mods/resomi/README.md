@@ -1,7 +1,7 @@
 
 #### Список PRов:
 
-- https://github.com/SierraBay/SierraBay12/pull/2047
+- https://github.com/SierraBay/SierraBay12/pull/2054
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
@@ -34,6 +34,12 @@ ID мода: RESOMI
   - `/obj/item/organ/external/on_update_icon()`
 - `mods/resomi/code/overrides.dm`
   - `/mob/living/carbon/human/get_pulse_as_number()`
+- `code/modules/clothing/head/jobs.dm`
+  - `/obj/item/clothing/head/beret`
+  - `/obj/item/clothing/head/beret/Initialize()`
+  - `/obj/item/clothing/head/beret/equipped()`
+- `code/modules/clothing/masks/miscellaneous.dm`
+  - `/obj/item/clothing/mask/bandana/equipped()`
 
 <!--
   Если вы редактировали какие-либо процедуры или переменные в кор коде,
@@ -66,6 +72,7 @@ ID мода: RESOMI
   - `CULTURE_RESOMI_NEWGENERATION`
   - `CULTURE_RESOMI_LOSTCOLONYRICH`
   - `CULTURE_RESOMI_LOSTCOLONYPOOR`
+  - `CULTURE_RESOMI_SKRELL`
   - `HOME_SYSTEM_RESOMI_BIRDCAGE`
   - `HOME_SYSTEM_RESOMI_EREMUS`
   - `HOME_SYSTEM_RESOMI_ASRANDA`

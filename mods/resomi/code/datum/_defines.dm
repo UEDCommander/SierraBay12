@@ -4,6 +4,7 @@
 #define CULTURE_RESOMI_NEWGENERATION  "New generation"
 #define CULTURE_RESOMI_LOSTCOLONYRICH "A native of a thriving lost colony"
 #define CULTURE_RESOMI_LOSTCOLONYPOOR "A native of a impoverished lost colony"
+#define CULTURE_RESOMI_SKRELL       "Skrellian Adoptive"
 
 #define HOME_SYSTEM_RESOMI_BIRDCAGE       "Birdcage (Colchis Habitat)"
 #define HOME_SYSTEM_RESOMI_EREMUS         "Eremus"

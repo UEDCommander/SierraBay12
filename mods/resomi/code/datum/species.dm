@@ -63,14 +63,14 @@
 	heat_level_3 = 600
 	heat_discomfort_level = 292
 	heat_discomfort_strings = list(
-		"Ваши перья колются от жары..",
-		"Вы чувствуете дискомфорт от жары..",
+		"Вашу кожу покалывает от жары.",
+		"Вам жарко.",
 		)
 	cold_discomfort_level = 200
 	cold_discomfort_strings = list(
-		"Вы не чувствуете своих лап из-за холода..",
-		"Вы чувствуете усталость и чувство холода..",
-		"Твои перья щетинятся от холода..")
+		"Вы не чувствуете своих лап из-за холода.",
+		"Вы чувствуете усталость и чувство холода.",
+		"Ваши перья щетинятся от холода.")
 
 	has_limbs = list(
 		BP_CHEST =  list("path" = /obj/item/organ/external/chest),
@@ -128,6 +128,7 @@
 			CULTURE_HUMAN_CETII,
 			CULTURE_RESOMI_LOSTCOLONYRICH,
 			CULTURE_RESOMI_LOSTCOLONYPOOR,
+			CULTURE_RESOMI_SKRELL,
 			//CULTURE_RESOMI_SAVEEL,
 			CULTURE_OTHER
 		),
