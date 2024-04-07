@@ -77,8 +77,12 @@ var/global/list/gear_datums = list()
 	if(!isnull(max_cost) && gear_to_check.cost > max_cost)
 		return FALSE
 
+	// [SIERRA-REMOVE]
+	/*
 	if(!gear_to_check.allowed_donation_tier(pref.client))
 		return FALSE
+	*/
+	// [/SIERRA-REMOVE]
 
 	if(!length(gear_to_check.whitelisted))
 		return TRUE
