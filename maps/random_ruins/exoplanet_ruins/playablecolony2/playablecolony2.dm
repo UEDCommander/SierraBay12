@@ -13,7 +13,7 @@
 	apc_test_exempt_areas = list(
 		/area/map_template/colony2/external = NO_SCRUBBER|NO_VENT
 	)
-	spawn_weight = 0.33
+	spawn_weight = 0.4
 
 /singleton/submap_archetype/playablecolony2
 	descriptor = "landed colony ship"
