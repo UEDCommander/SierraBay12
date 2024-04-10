@@ -82,8 +82,10 @@ ranks - ec
 
 /obj/item/clothing/accessory/armor_tag/zpci
 	name = "\improper ZPCI tag"
-	desc = "An armor tag with the words ZONE PROTECTION CONTROL INCORPORATED printed in cyan lettering on it."
-	icon_state = "pcrctag"
+	icon = 'mods/loadout_items/icons/obj_accessory.dmi'
+	accessory_icons = list(slot_w_uniform_str = 'mods/loadout_items/icons/onmob_accessory.dmi', slot_wear_suit_str = 'mods/loadout_items/icons/onmob_accessory.dmi')
+	desc = "An armor tag with the words ZONE PROTECTION CONTROL INCORPORATED printed in blue lettering on it."
+	icon_state = "zpci_tag"
 
 // Press
 
