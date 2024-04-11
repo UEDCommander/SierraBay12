@@ -90,4 +90,9 @@
 	allowed_branches = list(/datum/mil_branch/contractor)
 	required_factions = list(FACTION_ZPCI)
 
+//Aurora stuff
+/datum/gear/clothing/cloak_avalon
+	display_name = "mantle, Avalon"
+	path = /obj/item/clothing/accessory/cloak/dominia/red
+
 //Misc cloaks

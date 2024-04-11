@@ -201,7 +201,7 @@
 
 //Aurora stuff
 
-/obj/item/clothing/accessory/poncho/dominia/red
+/obj/item/clothing/accessory/cloak/dominia/red
 	name = "Avalon grand mantle"
 	desc = "A heavy cape, found usually upon shoulders of the richest - and most conceited - among the Avalonian nobles."
 	icon = 'mods/loadout_items/icons/obj_accessory.dmi'
@@ -214,17 +214,18 @@
 	icon_state = "dominian_cape_red"
 	item_state = "dominian_cape_red"
 	overlay_state = "dominian_cape_red"
+	slot = ACCESSORY_SLOT_INSIGNIA
 	icon_override = null
 	var/rolled = FALSE
 
-/obj/item/clothing/accessory/poncho/dominia/red/update_clothing_icon()
+/obj/item/clothing/accessory/cloak/dominia/red/update_clothing_icon()
 	if(ismob(loc))
 		var/mob/M = loc
 		M.update_inv_wear_suit()
 	get_mob_overlay(TRUE)
 	get_inv_overlay(TRUE)
 
-/obj/item/clothing/accessory/poncho/dominia/red/verb/roll_up_mantle()
+/obj/item/clothing/accessory/cloak/dominia/red/verb/roll_up_mantle()
 	set name = "Roll Up Cape Mantle"
 	set desc = "Roll up your cape's mantle."
 	set category = "Object"
