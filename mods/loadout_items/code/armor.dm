@@ -31,8 +31,3 @@ Armor Patches, covers, ect
 	icon = 'mods/loadout_items/icons/obj_accessory.dmi'
 	icon_state = "scp_tag"
 	accessory_icons = list(slot_tie_str = 'mods/loadout_items/icons/onmob_accessory.dmi', slot_wear_suit_str = 'mods/loadout_items/icons/onmob_accessory.dmi')
-
-/obj/item/clothing/accessory/armor/tag/zpci
-	name = "\improper ZPCI tag"
-	desc = "An armor tag with the words ZONE PROTECTION CONTROL INCORPORATED printed in cyan lettering on it."
-	icon_state = "pcrctag"
