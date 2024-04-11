@@ -243,3 +243,11 @@
 	desc = "An Avalon coat issued to members of His Majesty's Chancellery, designed in the typical Avalonian fashion."
 	icon_state = "dominia_consular_coat"
 	item_state = "dominia_consular_coat"
+
+/obj/item/clothing/suit/storage/dominia/consular/red
+	icon_state = "dominia_consular_greatcoat_red"
+	item_state = "dominia_consular_greatcoat_red"
+
+/obj/item/clothing/suit/storage/dominia/consular/coat/red
+	icon_state = "dominia_consular_coat_red"
+	item_state = "dominia_consular_coat_red"
