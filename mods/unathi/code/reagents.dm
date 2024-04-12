@@ -52,6 +52,16 @@
 			M.Weaken(2)
 			M.drowsyness = max(M.drowsyness, 5)
 
+	if (IS_METABOLICALLY_INERT(M))
+		return
+	M.drowsyness = max(M.drowsyness - 2, 0)
+	M.AdjustParalysis(-1)
+	M.AdjustStunned(-1)
+	holder.remove_reagent(/datum/reagent/drugs/mindbreaker, 2)
+	M.adjust_hallucination(-5)
+	M.add_chemical_effect(CE_MIND, 1)
+	M.add_chemical_effect(CE_STIMULANT, 5)
+
 /datum/reagent/arhishaap
 	name = "Arhishaap"
 	description = "An advanced Yeosa'Unathi anti-toxin, significantly more effective than synthetic alternatives."

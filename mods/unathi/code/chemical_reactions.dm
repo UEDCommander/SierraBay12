@@ -2,8 +2,8 @@
 /datum/chemical_reaction/paashe
 	name = "Paashe Meish Sunn"
 	result = /datum/reagent/paashe
-	required_reagents = list(/datum/reagent/toxin/yeosvenom = 1, /datum/reagent/ethanol = 1, /datum/reagent/acetone = 1)
-	result_amount = 3
+	required_reagents = list(/datum/reagent/toxin/yeosvenom = 1, /datum/reagent/ethanol = 1, /datum/reagent/lithium = 1, /datum/reagent/space_cleaner = 2)
+	result_amount = 5
 
 /datum/chemical_reaction/arhishaap
 	name = "Arhishaap"
