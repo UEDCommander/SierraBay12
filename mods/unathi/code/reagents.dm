@@ -17,11 +17,11 @@
 //Medicine
 /datum/reagent/paashe
 	name = "Paashe Meish Sunn"
-	description = "An effective natural painkiller, produced from Yeosa'Unathi innate venom. Has similar effect to Tramadol, but doesn't feature any significant side effects."
+	description = "An effective natural painkiller, produced from Yeosa'Unathi innate venom. Has similar effect to a mixture of Tramadol and Synaptizine, but doesn't feature any significant side effects."
 	taste_description = "way too much sweetness"
 	reagent_state = LIQUID
 	color = "#aea0c9"
-	overdose = 30
+	var/weakness_modifier = 30
 	scannable = 1
 	metabolism = 0.05
 	ingest_met = 0.02
@@ -37,15 +37,15 @@
 	else if(volume < effective_dose)
 		effectiveness = volume/effective_dose
 	M.add_chemical_effect(CE_PAINKILLER, pain_power * effectiveness)
-	if(M.chem_doses[type] > 0.5 * overdose)
+	if(M.chem_doses[type] > 0.5 * weakness_modifier)
 		M.add_chemical_effect(CE_SLOWDOWN, 1)
 		if(prob(1))
 			M.slurring = max(M.slurring, 10)
-	if(M.chem_doses[type] > 0.75 * overdose)
+	if(M.chem_doses[type] > 0.75 * weakness_modifier)
 		M.add_chemical_effect(CE_SLOWDOWN, 1)
 		if(prob(5))
 			M.slurring = max(M.slurring, 20)
-	if(M.chem_doses[type] > overdose)
+	if(M.chem_doses[type] > weakness_modifier)
 		M.add_chemical_effect(CE_SLOWDOWN, 1)
 		M.slurring = max(M.slurring, 30)
 		if(prob(1))
