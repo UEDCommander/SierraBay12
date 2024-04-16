@@ -18,6 +18,7 @@
 /datum/gear/tactical/holster/New()
 	allowed_roles = ARMED_ROLES
 	allowed_roles += /datum/job/iaa
+	allowed_roles += /datum/job/adjutant
 	..()
 
 /datum/gear/tactical/holster/New()
@@ -116,7 +117,7 @@
 	atags["PCRC tag"] = /obj/item/clothing/accessory/armor_tag/pcrc
 	atags["SAARE tag"] = /obj/item/clothing/accessory/armor_tag/saare
 //	atags["SCP tag"] = /obj/item/clothing/accessory/armor_tag/scp
-//	atags["ZPCI tag"] = /obj/item/clothing/accessory/armor_tag/zpci
+	atags["ZPCI tag"] = /obj/item/clothing/accessory/armor_tag/zpci
 	gear_tweaks += new/datum/gear_tweak/path(atags)
 
 /datum/gear/tactical/press_tag

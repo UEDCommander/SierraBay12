@@ -187,26 +187,30 @@
 	whitelisted = list(SPECIES_UNATHI, SPECIES_YEOSA)
 
 /datum/gear/suit/unathi/mantle
-	display_name = "hide mantle (Unathi)"
+	display_name = "(Unathi) hide mantle"
 	path = /obj/item/clothing/suit/unathi/mantle
 
 /datum/gear/suit/unathi/robe
-	display_name = "roughspun robe (Unathi)"
+	display_name = "(Unathi) roughspun robe"
 	path = /obj/item/clothing/suit/unathi/robe
 
 /datum/gear/suit/unathi/knifeharness
-	display_name = "decorated harness"
+	category = GEAR_CATEGORY_ACCESSORIES
+	display_name = "(Unathi) decorated harness"
 	path = /obj/item/clothing/accessory/storage/knifeharness
+	slot = slot_tie
 	cost = 5
 
 /datum/gear/suit/unathi/savage_hunter
-	display_name = "savage hunter hides (Male, Unathi)"
+	category = GEAR_CATEGORY_UNIFORMS_AND_CASUAL_DRESS
+	display_name = "(Unathi) savage hunter hides, male"
 	path = /obj/item/clothing/under/savage_hunter
 	slot = slot_w_uniform
 	cost = 2
 
 /datum/gear/suit/unathi/savage_hunter/female
-	display_name = "savage hunter hides (Female, Unathi)"
+	category = GEAR_CATEGORY_UNIFORMS_AND_CASUAL_DRESS
+	display_name = "(Unathi) savage hunter hides, female"
 	path = /obj/item/clothing/under/savage_hunter/female
 	slot = slot_w_uniform
 	cost = 2
