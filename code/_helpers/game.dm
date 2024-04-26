@@ -594,6 +594,10 @@
 	var/list/view_size = getviewsize(view)
 	return view_size[1]
 
+/proc/get_view_size_y(view)
+	var/list/view_size = getviewsize(view)
+	return view_size[2]
+
 /proc/get_lesser_view_size_component(view)
 	var/list/view_size = getviewsize(view)
 	return min(view_size[1], view_size[2])
