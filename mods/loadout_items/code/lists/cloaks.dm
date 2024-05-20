@@ -88,7 +88,7 @@
 	display_name = "cloak, ZPCI"
 	path = /obj/item/clothing/accessory/cloak/zpci
 	allowed_branches = list(/datum/mil_branch/contractor)
-	required_factions = list(FACTION_ZPCI)
+	allowed_factions = list(FACTION_ZPCI)
 
 //Aurora stuff
 /datum/gear/clothing/cloak_avalon
