@@ -66,7 +66,7 @@
 	display_name = "avalon coats selection"
 	path = /obj/item/clothing/suit/storage/dominia
 
-datum/gear/suit/avalon_coats/New()
+/datum/gear/suit/avalon_coats/New()
 	..()
 	var/avalon_coats = list()
 	avalon_coats["Avalon greatcoat"] = /obj/item/clothing/suit/storage/dominia
