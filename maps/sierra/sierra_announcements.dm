@@ -4,7 +4,7 @@
 	shuttle_docked_message = "Внимание всему персоналу: подготовка к подпространственному прыжку завершена. Начата процедура безопасной активации генератора подпространства. Расчетное время до начала прыжка: %ETD%."
 	shuttle_docked_sound = sound(ANNOUNCER_BLUESPACEJUMP_INIT, volume = 45)
 	shuttle_leaving_dock = "Внимание всему персоналу: прыжок начат. Примерное время окончания прыжка: %ETA%. Сохраняйте спокойствие и трезвость мышления."
-	shuttle_leaving_dock = sound(ANNOUNCER_BLUESPACEJUMP_START, volume = 45)
+	shuttle_leaving_dock_sound = sound(ANNOUNCER_BLUESPACEJUMP_START, volume = 45)
 	shuttle_recall_message = "Внимание всему персоналу: процедура подготовки к подпространственному прыжку отменена. Возвращайтесь к исполнению своих рабочих обязанностей."
 
 	emergency_shuttle_called_message = "Внимание всему персоналу: получен запрос аварийной эвакуации судна. Автоматическое подтверждение запроса через: %ETA%"
