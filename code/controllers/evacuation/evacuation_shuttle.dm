@@ -3,14 +3,9 @@
 
 /datum/evacuation_controller/shuttle
 	name = "escape shuttle controller"
-	// [SIERRA-EDIT] - ERIS_ANNOUNCER
-	// evac_waiting =  new(0, new_sound = sound('sound/AI/shuttledock.ogg')) // SIERRA-EDIT - ORIGINAL
-	// evac_called =   new(0, new_sound = sound('sound/AI/shuttlecalled.ogg')) // SIERRA-EDIT - ORIGINAL
-	// evac_recalled = new(0, new_sound = sound('sound/AI/shuttlerecalled.ogg')) // SIERRA-EDIT - ORIGINAL
-	evac_waiting =  new(0, new_sound = sound(ANNOUNCER_SHUTTLEDOCK))
-	evac_called =   new(0, new_sound = sound(ANNOUNCER_SHUTTLECALLED))
-	evac_recalled = new(0, new_sound = sound(ANNOUNCER_SHUTTLERECALLED))
-	// [/SIERRA-EDIT]
+	evac_waiting =  new(0, new_sound = sound('sound/AI/shuttledock.ogg'))
+	evac_called =   new(0, new_sound = sound('sound/AI/shuttlecalled.ogg'))
+	evac_recalled = new(0, new_sound = sound('sound/AI/shuttlerecalled.ogg'))
 
 	emergency_prep_additional_delay = 0 MINUTES
 	transfer_prep_additional_delay = 0 MINUTES
