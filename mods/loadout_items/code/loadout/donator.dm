@@ -25,7 +25,7 @@
 
 /client/New()
 	. = ..()
-	var/singleton/modpack/don_loadout/donations = GET_SINGLETON(/singleton/modpack/don_loadout)
+	var/singleton/modpack/don_loadout/donations = GET_SINGLETON(/singleton/modpack/loadout_items)
 	donations.update_donator(src)
 
 /client/verb/donations_info()
@@ -33,7 +33,7 @@
 	set desc = "View information about donations."
 	set hidden = 1
 
-	var/singleton/modpack/don_loadout/donations = GET_SINGLETON(/singleton/modpack/don_loadout)
+	var/singleton/modpack/don_loadout/donations = GET_SINGLETON(/singleton/modpack/loadout_items)
 	donations.show_donations_info(mob)
 
 /datum/donator_info
