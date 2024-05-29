@@ -1,5 +1,5 @@
 // When i wrote this, it was called at SS_INIT_EARLY - right after SS_INIT_DBCODE
-/singleton/modpack/don_loadout/initialize()
+/singleton/modpack/loadout_items/initialize()
 	if(!sqlenabled)
 		log_debug("Donations system is disabled with SQL!")
 		return
@@ -12,13 +12,13 @@
 
 	return ..()
 
-/singleton/modpack/don_loadout/proc/UpdateAllClients()
+/singleton/modpack/loadout_items/proc/UpdateAllClients()
 	set waitfor = 0
 	for(var/client/C in GLOB.clients)
 		update_donator(C)
 	log_debug("Donators info were updated!")
 
-/singleton/modpack/don_loadout/proc/update_donator(client/player)
+/singleton/modpack/loadout_items/proc/update_donator(client/player)
 	set waitfor = 0
 
 	if(!establish_db_connection())
@@ -61,7 +61,7 @@
 
 	return TRUE
 
-/singleton/modpack/don_loadout/proc/show_donations_info(mob/user)
+/singleton/modpack/loadout_items/proc/show_donations_info(mob/user)
 	ASSERT(user)
 
 	var html = {"
@@ -76,7 +76,7 @@
 	popup.open()
 
 
-/singleton/modpack/don_loadout/Topic(href, href_list)
+/singleton/modpack/loadout_items/Topic(href, href_list)
 	var/mob/user = usr
 
 	switch(href_list["action"])
