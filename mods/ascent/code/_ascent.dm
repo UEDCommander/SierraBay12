@@ -18,8 +18,4 @@
 #define LANGUAGE_MANTID_BROADCAST  "Worldnet"
 
 //Species
-#define SPECIES_MONARCH_WORKER     "Monarch Serpentid Worker"
-#define SPECIES_MONARCH_QUEEN      "Monarch Serpentid Queen"
-#define SPECIES_MANTID_ALATE       "Kharmaan Alate"
-#define SPECIES_MANTID_GYNE        "Kharmaan Gyne"
 #define ALL_ASCENT_SPECIES list(SPECIES_MANTID_ALATE, SPECIES_MANTID_GYNE, SPECIES_NABBER, SPECIES_MONARCH_QUEEN, SPECIES_MONARCH_WORKER)
