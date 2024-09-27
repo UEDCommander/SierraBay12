@@ -1,7 +1,7 @@
 
 #### Список PRов:
 
-- Отсутствуют
+- https://github.com/SierraBay/SierraBay12/pull/2678
 <!--
   Ссылки на PRы, связанные с модом:
   - Создание
@@ -54,7 +54,10 @@ ID мода: ASCENT
 
 ### Дефайны
 
-- Отсутствуют
+- `SPECIES_MANTID_ALATE`
+- `SPECIES_MANTID_GYNE`
+- `SPECIES_MONARCH_WORKER`
+- `SPECIES_MONARCH_QUEEN`
 <!--
   Если требовалось добавить какие-либо дефайны, укажи файлы,
   в которые ты их добавил, а также перечисли имена.
