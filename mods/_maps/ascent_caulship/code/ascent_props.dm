@@ -62,7 +62,7 @@
 				continue
 		. += M
 
-/mob/living/simple_animal/hostile/retaliate/alate_nymph/get_scooped(var/mob/living/carbon/grabber)
+/mob/living/simple_animal/hostile/retaliate/alate_nymph/get_scooped(mob/living/carbon/grabber)
 	if(!(grabber.species.get_bodytype() in friendly_species))
 		to_chat(grabber, SPAN_WARNING("\The [src] wriggles out of your hands before you can pick it up!"))
 		return
