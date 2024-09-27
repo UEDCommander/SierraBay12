@@ -73,8 +73,8 @@
 		i--
 		scrambled_text += "<font color='[get_random_colour(1)]'>*</font>"
 	scramble_cache[input] = scrambled_text
-	if(scramble_cache.len > MANTID_SCRAMBLE_CACHE_LEN)
-		scramble_cache.Cut(1, scramble_cache.len-MANTID_SCRAMBLE_CACHE_LEN-1)
+	if(LAZYLEN(scramble_cache) > MANTID_SCRAMBLE_CACHE_LEN)
+		scramble_cache.Cut(1, LAZYLEN(scramble_cache)-MANTID_SCRAMBLE_CACHE_LEN-1)
 	return scrambled_text
 #undef MANTID_SCRAMBLE_CACHE_LEN
 
