@@ -1,7 +1,7 @@
 GLOBAL_LIST_INIT(gyne_names, list())
 
 /singleton/cultural_info/culture/ascent/proc/get_gyne_name()
-	return GLOB.gyne_names.len ? pick(GLOB.gyne_names) : create_gyne_name()
+	return LAZYLEN(GLOB.gyne_names) ? pick(GLOB.gyne_names) : create_gyne_name()
 
 /singleton/cultural_info/culture/ascent/proc/create_gyne_name()
 	var/gynename = "[capitalize(pick(GLOB.gyne_architecture))] [capitalize(pick(GLOB.gyne_geoforms))]"
