@@ -46,7 +46,7 @@
 	closet_appearance = /singleton/closet_appearance/crate/freezer/ascent
 
 /singleton/closet_appearance/crate/freezer/ascent
-	color = null
+	color = COLOR_PURPLE
 	base_icon = 'mods/ascent/icons/ascent_doodads.dmi'
 
 /obj/item/reagent_containers/food/drinks/cans/waterbottle/ascent
