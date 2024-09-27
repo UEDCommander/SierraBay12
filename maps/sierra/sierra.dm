@@ -185,8 +185,6 @@
 	// USED MODS
 	// Keep them in ascending alphabetical order, please
 
-	#include "../../mods/_maps/ascent/_map_ascent.dme"
-	#include "../../mods/_maps/ascent_caulship/_map_ascent_caulship.dme"
 	#include "../../mods/_maps/liberia/_map_liberia.dme"
 	#include "../../mods/_maps/sentinel/_map_sentinel.dme"
 	#include "../../mods/_maps/farfleet/_map_farfleet.dme"
@@ -211,8 +209,10 @@
 	// UNUSED MODS
 	// Keep them in ascending alphabetical order too, please
 
-	// #include "../../mods/bluespace_kitty/_bluespace_kitty.dme"
+	// #include "../../mods/_maps/ascent/_map_ascent.dme"
+	// #include "../../mods/_maps/ascent_caulship/_map_ascent_caulship.dme"
 	// #include "../../mods/atmos_ret_field/_atm_ret_field.dme"
+	// #include "../../mods/bluespace_kitty/_bluespace_kitty.dme"
 
 	// Почему UNUSED MODS стоит хранить?
 	// Потому что никто не проверяет использование тех или иных файлов
