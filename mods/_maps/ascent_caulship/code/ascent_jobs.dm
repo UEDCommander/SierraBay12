@@ -127,7 +127,7 @@
 				return TRUE
 		return FALSE */
 
-/datum/job/submap/ascent/handle_variant_join(var/mob/living/carbon/human/H, var/alt_title)
+/datum/job/submap/ascent/handle_variant_join(mob/living/carbon/human/H, alt_title)
 
 	if(ispath(set_species_on_join, /mob/living/silicon/robot))
 		return H.Robotize(set_species_on_join)
