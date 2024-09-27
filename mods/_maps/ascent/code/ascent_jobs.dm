@@ -25,7 +25,7 @@
 /datum/submap/ascent_inf/sync_cell(obj/effect/overmap/visitable/cell)
 	return
 
-/datum/submap/ascent_inf/check_general_join_blockers(var/mob/new_player/joining, var/datum/job/submap/job)
+/datum/submap/ascent_inf/check_general_join_blockers(mob/new_player/joining, datum/job/submap/job)
 	. = ..()
 	if(. && istype(job, /datum/job/submap/ascent_inf))
 		var/datum/job/submap/ascent_inf/ascent_job = job
@@ -123,7 +123,7 @@
 			if(SPECIES_MONARCH_QUEEN)
 				. = is_species_whitelisted(caller.mob, SPECIES_NABBER)
 
-/datum/job/submap/ascent_inf/handle_variant_join(var/mob/living/carbon/human/H, var/alt_title)
+/datum/job/submap/ascent_inf/handle_variant_join(mob/living/carbon/human/H, alt_title)
 
 	if(ispath(set_species_on_join, /mob/living/silicon/robot))
 		return H.Robotize(set_species_on_join)
