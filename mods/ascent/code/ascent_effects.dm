@@ -115,9 +115,9 @@
 		qdel(src)
 
 /obj/effect/razorweb/on_update_icon()
-	overlays.Cut()
+	ClearOverlays()
 	web.alpha = 255 * last_light
-	overlays = list(web, gleam)
+	SetOverlays(list(web, gleam))
 
 /obj/effect/razorweb/Process()
 	var/turf/T = get_turf(src)
