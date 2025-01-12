@@ -488,8 +488,9 @@
 /area/ship/skrellscoutship/forestorage)
 "bQ" = (
 /obj/structure/table/glass,
-/obj/item/folder/blue,
-/obj/machinery/recharger,
+/obj/machinery/photocopier/faxmachine{
+	department = "Skrellian Scout Vessel"
+	},
 /turf/simulated/floor/tiled/skrell/red,
 /area/ship/skrellscoutship/command/bridge)
 "bR" = (
