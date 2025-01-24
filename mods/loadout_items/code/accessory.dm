@@ -97,6 +97,12 @@ ranks - ec
 	badge_string = "Internal Investigations"
 	slot_flags = SLOT_TIE | SLOT_BELT
 
+/obj/item/clothing/accessory/badge/holo/investigator/iso
+	name = "\improper Internal Security holobadge"
+	desc = "This badge, depicting the infamous crimson shield logo of the NanoTrasen Internal Security, marks the holder as an internal security operative."
+	icon_state = "invbadge"
+	badge_string = "Internal Security"
+
 /*
 --- Kinky stuff
 */

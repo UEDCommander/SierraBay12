@@ -29,7 +29,7 @@
 
 	allowed_jobs = list(
 		/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
-		/datum/job/iaa, /datum/job/adjutant,
+		/datum/job/iaa, /datum/job/iso, /datum/job/adjutant,
 		/datum/job/exploration_leader, /datum/job/explorer, /datum/job/explorer_pilot, /datum/job/explorer_medic, /datum/job/explorer_engineer,
 		/datum/job/senior_engineer, /datum/job/engineer, /datum/job/infsys, /datum/job/engineer_trainee,
 		/datum/job/warden, /datum/job/detective, /datum/job/officer, /datum/job/security_assistant,
@@ -131,7 +131,7 @@
 
 /singleton/cultural_info/culture/ipc/gen3
 	valid_jobs = list(/datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer,
-		/datum/job/iaa, /datum/job/adjutant,
+		/datum/job/iaa, /datum/job/iso, /datum/job/adjutant,
 		/datum/job/exploration_leader, /datum/job/explorer, /datum/job/explorer_pilot, /datum/job/explorer_medic, /datum/job/explorer_engineer,
 		/datum/job/senior_engineer, /datum/job/engineer, /datum/job/infsys, /datum/job/engineer_trainee,
 		/datum/job/warden, /datum/job/detective, /datum/job/officer,
