@@ -58,6 +58,7 @@
 		/obj/item/clothing/mask/gas/half,
 		/obj/item/storage/firstaid/security,
 		/obj/item/clothing/head/beret/sec/corporate/operative,
+		/obj/item/clothing/head/beret/sec/corporate/operative/parade,
 		/obj/item/clothing/under/rank/security/operative,
 		/obj/item/clothing/under/rank/internalaffairs/plain/nt,
 		/obj/item/clothing/shoes/laceup
