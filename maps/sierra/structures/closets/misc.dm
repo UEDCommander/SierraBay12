@@ -49,7 +49,7 @@
 		/obj/item/clothing/accessory/storage/black_vest,
 		/obj/item/clothing/accessory/armor_plate/sneaky/tactical,
 		/obj/item/handcuffs,
-		/obj/item/gun/energy,
+		/obj/item/gun/energy/gun,
 		/obj/item/clothing/gloves/thick,
 		/obj/item/device/holowarrant,
 		/obj/item/device/flashlight/maglight,
