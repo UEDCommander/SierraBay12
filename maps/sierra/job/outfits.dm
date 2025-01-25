@@ -136,7 +136,7 @@ Keeping them simple for now, just spawning with basic EC uniforms, and pretty mu
 	uniform = /obj/item/clothing/under/rank/security/operative
 	shoes = /obj/item/clothing/shoes/jackboots
 	id_types = list(/obj/item/card/id/sierra/crew/liaison/iso)
-	backpack_contents = list(/obj/item/clothing/accessory/badge/holo/investigator/iso = 1)
+	backpack_contents = list(/obj/item/clothing/accessory/badge/iso = 1)
 
 /singleton/hierarchy/outfit/job/sierra/crew/command/adjutant
 	name = OUTFIT_JOB_NAME("Adjutant")
