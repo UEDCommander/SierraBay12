@@ -180,6 +180,7 @@
 
 /area/crew_quarters/heads/office/iaa/iso_quarters
 	name = "Bridge - Command - ISO's Quarters"
+	area_flags = AREA_FLAG_RAD_SHIELDED
 	holomap_color = HOLOMAP_AREACOLOR_COMMAND
 
 /area/crew_quarters/heads/office/iaa/cobed
