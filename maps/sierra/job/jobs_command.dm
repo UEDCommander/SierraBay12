@@ -447,6 +447,7 @@
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "Директору Департамента Внутренних Дел"
+	requires_head = "Internal Affairs Agent"
 	selection_color = "#2f2f7f"
 	economic_power = 10
 

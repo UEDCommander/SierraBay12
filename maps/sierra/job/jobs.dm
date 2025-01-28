@@ -153,6 +153,17 @@
 	required_language = LANGUAGE_HUMAN_EURO
 	psi_latency_chance = 8
 	give_psionic_implant_on_join = FALSE
+	var/requires_head
+
+/datum/job/is_position_available()
+	. = ..()
+	if(. && requires_head)
+		for(var/mob/M in GLOB.player_list)
+			if(!M.client || !M.mind || !M.mind.assigned_job)
+				continue
+			if(M.mind.assigned_job.title == requires_head)
+				return TRUE
+		return FALSE
 
 /datum/map/sierra
 	default_assistant_title = "Crewman"
