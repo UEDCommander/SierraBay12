@@ -302,14 +302,6 @@
 	icon = 'maps/sierra-event/icons/turf/decals.dmi'
 	icon_state = "hellpod"
 
-/obj/portal/hellpod/New(start, end, delete_after, failure_rate)
-	if(failure_rate)
-		failchance = failure_rate
-		if(prob(failchance))
-			icon_state = "portal1"
-			dangerous = 1
-	playsound(src, 'sound/effects/phasein.ogg', 25, 1)
-
 /obj/structure/superearthbanner
 	name = "\improper Super Earth banner"
 	icon = 'maps/torch/icons/obj/solbanner.dmi'

@@ -37,11 +37,6 @@
 			icon_state = "portal1"
 			dangerous = 1
 	playsound(src, 'sound/effects/phasein.ogg', 25, 1)
-	target = end
-
-	if(delete_after)
-		spawn(delete_after)
-			qdel(src)
 
 /obj/portal/Destroy()
 	target = null
