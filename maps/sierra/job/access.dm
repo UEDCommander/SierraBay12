@@ -1,5 +1,5 @@
 /**************
- * NSV sierra *
+ * SES Sierra Democratica *
  **************/
 var/global/const/access_hangar = "ACCESS_HANGAR"
 /datum/access/hangar
@@ -132,12 +132,6 @@ var/global/const/access_chief_steward = "ACCESS_SIERRA_CHIEF_STEWARD"
 	id = access_chief_steward
 	desc = "Chief Steward"
 	region = ACCESS_REGION_GENERAL
-
-var/global/const/access_adjutants = "ACCESS_ADJUTANTS"
-/datum/access/adjutants
-	id = access_adjutants
-	desc = "adjutants"
-	region = ACCESS_REGION_COMMAND
 
 /datum/access/network
 	region = ACCESS_REGION_COMMAND

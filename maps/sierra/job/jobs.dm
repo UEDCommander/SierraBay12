@@ -16,7 +16,7 @@
 		/datum/species/diona = list(
 			HUMAN_ONLY_JOBS, /datum/job/exploration_leader, /datum/job/explorer_pilot,
 			/datum/job/officer, /datum/job/warden, /datum/job/detective,
-			/datum/job/qm, /datum/job/explorer_medic,
+			/datum/job/qm,
 			/datum/job/senior_engineer, /datum/job/senior_doctor,
 			/datum/job/senior_scientist, /datum/job/security_assistant
 		),
@@ -38,7 +38,7 @@
 		/datum/job/chief_steward, /datum/job/janitor, /datum/job/cook, /datum/job/bartender, /datum/job/steward, /datum/job/chaplain, /datum/job/actor,
 		/datum/job/senior_scientist, /datum/job/scientist, /datum/job/roboticist, /datum/job/scientist_assistant,
 		/datum/job/ai, /datum/job/cyborg,
-		/datum/job/assistant, /datum/job/vagabond
+		/datum/job/assistant
 	)
 
 	access_modify_region = list(
@@ -142,19 +142,6 @@
 		/datum/job/ai, /datum/job/cyborg, /datum/job/assistant
 )
 //[/SIERRA-ADD] - [IPC-MODS]
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ADHERENT  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/singleton/cultural_info/faction/adherent/
-
-	var/list/valid_jobs = list(/datum/job/ai, /datum/job/cyborg, /datum/job/assistant, /datum/job/janitor, /datum/job/engineer_trainee, /datum/job/cook, /datum/job/cargo_tech, /datum/job/scientist_assistant, /datum/job/doctor_trainee, /datum/job/engineer, /datum/job/mining, /datum/job/cargo_assistant, /datum/job/roboticist, /datum/job/chemist, /datum/job/bartender, /datum/job/steward, /datum/job/explorer_engineer)
-
-/singleton/cultural_info/faction/adherent/loyalists
-	valid_jobs = list(ADHERENT_JOBS)
-
-/datum/species/adherent/check_background(datum/job/job, datum/preferences/prefs)
-	var/singleton/cultural_info/faction/adherent/faction = SSculture.get_culture(prefs.cultural_info[TAG_FACTION])
-	. = istype(faction) ? (job.type in faction.valid_jobs) : ..()
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 /datum/job
 	allowed_branches = list(

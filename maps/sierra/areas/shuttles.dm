@@ -49,6 +49,47 @@
 /area/shuttle/escape_pod/escape_pod11/station
 	name = "Shuttle - Escape - Small Pod Nine"
 
+/area/shuttle/hellpod
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
+	icon_state = "exit"
+	holomap_color = HOLOMAP_AREACOLOR_ESCAPE
+
+/area/shuttle/hellpod/hellpod1/station
+	name = "Hellpod One"
+
+/area/shuttle/hellpod/hellpod2/station
+	name = "Hellpod Two"
+
+/area/shuttle/hellpod/hellpod3/station
+	name = "Hellpod Three"
+
+/area/shuttle/hellpod/hellpod4/station
+	name = "Hellpod Four"
+
+/area/shuttle/hellpod/hellpod5/station
+	name = "Hellpod Five"
+
+/area/shuttle/hellpod/hellpod6/station
+	name = "Hellpod Six"
+
+/area/shuttle/hellpod/hellpod7/station
+	name = "Hellpod Seven"
+
+/area/shuttle/hellpod/hellpod8/station
+	name = "Hellpod Eight"
+
+/area/shuttle/hellpod/hellpod9/station
+	name = "Hellpod Nine"
+
+/area/shuttle/hellpod/hellpod10/station
+	name = "Hellpod Ten"
+
+/area/shuttle/hellpod/hellpod11/station
+	name = "Hellpod Eleven"
+
+/area/shuttle/hellpod/hellpod12/station
+	name = "Hellpod Twelve"
+
 /* VESSEL'S SHUTTLES
  * =================
  */
