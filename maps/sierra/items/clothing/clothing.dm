@@ -70,8 +70,8 @@
 
 /obj/item/clothing/suit/space/void/exploration/helldiver
 	name = "helldiver combat voidsuit"
-	icon = 'maps/sierra-event/icons/obj/clothing/obj_suit.dmi'
-	item_icons = list(slot_wear_suit_str = 'maps/sierra-event/icons/mob/onmob/onmob_suit.dmi')
+	icon = 'maps/sierra/icons/obj/clothing/obj_suit.dmi'
+	item_icons = list(slot_wear_suit_str = 'maps/sierra/icons/mob/onmob/onmob_suit.dmi')
 	desc = "This armor is the Super Earth Standard Issue, made from the same titanium alloy as the Superdestroyer's hull."
 	icon_state = "void_helldiver"
 	item_state = "void_helldiver"
@@ -100,8 +100,8 @@
 /obj/item/clothing/head/helmet/space/void/exploration/helldiver
 	name = "helldiver combat voidsuit helmet"
 	desc = "This armor is the Super Earth Standard Issue, made from the same titanium alloy as the Superdestroyer's hull."
-	icon = 'maps/sierra-event/icons/obj/clothing/obj_head.dmi'
-	item_icons = list(slot_head_str = 'maps/sierra-event/icons/mob/onmob/onmob_head.dmi')
+	icon = 'maps/sierra/icons/obj/clothing/obj_head.dmi'
+	item_icons = list(slot_head_str = 'maps/sierra/icons/mob/onmob/onmob_head.dmi')
 	icon_state = "void_helldiver"
 	item_state = "void_helldiver"
 	sprite_sheets = list(
@@ -127,8 +127,8 @@
 /obj/item/rig/exploration/helldiver
 	name = "Hell Commander HCM"
 	suit_type = "Hell Commander hardsuit"
-	icon = 'maps/sierra-event/icons/obj/clothing/uniques.dmi'
-	item_icons = list(slot_back_str = 'maps/sierra-event/icons/mob/onmob/onmob_back.dmi')
+	icon = 'maps/sierra/icons/obj/clothing/uniques.dmi'
+	item_icons = list(slot_back_str = 'maps/sierra/icons/mob/onmob/onmob_back.dmi')
 	desc = "Helldiver Corps' Assault Armored Unit, A-Unit for short. Crafted to deliver Justice to the darkest crevices of the galaxy."
 	icon_state = "rig_helldiver"
 	armor = list(
@@ -154,13 +154,13 @@
 /obj/item/clothing/head/helmet/space/rig/combat/helldiver
 	light_overlay = "helmet_light_dual_green"
 	species_restricted = list(SPECIES_HUMAN, SPECIES_IPC)
-	icon = 'maps/sierra-event/icons/obj/clothing/obj_head.dmi'
-	item_icons = list(slot_head_str = 'maps/sierra-event/icons/mob/onmob/onmob_head.dmi')
+	icon = 'maps/sierra/icons/obj/clothing/obj_head.dmi'
+	item_icons = list(slot_head_str = 'maps/sierra/icons/mob/onmob/onmob_head.dmi')
 
 /obj/item/clothing/suit/space/rig/combat/helldiver
 	species_restricted = list(SPECIES_HUMAN,SPECIES_IPC)
-	icon = 'maps/sierra-event/icons/obj/clothing/obj_suit.dmi'
-	item_icons = list(slot_wear_suit_str = 'maps/sierra-event/icons/mob/onmob/onmob_suit.dmi')
+	icon = 'maps/sierra/icons/obj/clothing/obj_suit.dmi'
+	item_icons = list(slot_wear_suit_str = 'maps/sierra/icons/mob/onmob/onmob_suit.dmi')
 	allowed = list(
 		/obj/item/device/flashlight,
 		/obj/item/tank,
@@ -189,14 +189,14 @@
 
 /obj/item/clothing/shoes/magboots/rig/combat/helldiver
 	species_restricted = list(SPECIES_HUMAN,SPECIES_IPC)
-	icon = 'maps/sierra-event/icons/obj/clothing/obj_feet.dmi'
-	item_icons = list(slot_shoes_str = 'maps/sierra-event/icons/mob/onmob/onmob_feet.dmi')
+	icon = 'maps/sierra/icons/obj/clothing/obj_feet.dmi'
+	item_icons = list(slot_shoes_str = 'maps/sierra/icons/mob/onmob/onmob_feet.dmi')
 
 /obj/item/clothing/gloves/rig/combat/helldiver
 	item_flags = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_NOCUFFS
 	species_restricted = list(SPECIES_HUMAN,SPECIES_IPC)
-	icon = 'maps/sierra-event/icons/obj/clothing/obj_hands.dmi'
-	item_icons = list(slot_gloves_str = 'maps/sierra-event/icons/mob/onmob/onmob_hands.dmi')
+	icon = 'maps/sierra/icons/obj/clothing/obj_hands.dmi'
+	item_icons = list(slot_gloves_str = 'maps/sierra/icons/mob/onmob/onmob_hands.dmi')
 
 /obj/item/rig/exploration/helldiver/equipped
 	initial_modules = list(
