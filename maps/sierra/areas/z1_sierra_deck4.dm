@@ -76,7 +76,7 @@
  * =============
  */
 /area/command/exploration_leader
-	name = "Fourth Deck - Expedition - Leader's Office"
+	name = "Fourth Deck - Helldiver Corps - Commander's Office"
 	icon_state = "heads_sea"
 	req_access = list(access_el)
 	holomap_color = HOLOMAP_AREACOLOR_EXPLORATION
@@ -171,37 +171,37 @@
 	sound_env = LARGE_ENCLOSED
 
 /area/quartermaster/deckofficer
-	name = "Fourth Deck - Supply - Quartermaster"
+	name = "Fourth Deck - Supply - Shipmaster"
 	icon_state = "quart"
 	req_access = list(access_qm)
 
 /area/quartermaster/expedition
-	name = "Fourth Deck - Exploration - Locker Room"
+	name = "Fourth Deck - Helldiver Corps - Locker Room"
 	icon_state = "mining"
 	req_access = list(list(access_mining, access_xenoarch))
 
 /area/quartermaster/expedition/eva
-	name = "Fourth Deck - Exploration - EVA"
+	name = "Fourth Deck - Helldiver Corps - EVA"
 	icon_state = "mining"
 
 /area/quartermaster/expedition/storage
-	name = "Fourth Deck - Exploration - Storage"
+	name = "Fourth Deck - Helldiver Corps - Storage"
 	icon_state = "mining"
 
 /area/quartermaster/exploration
-	name = "Fourth Deck - Expedition - Locker Room"
+	name = "Fourth Deck - Helldiver Corps - Locker Room"
 	icon_state = "exploration"
 	req_access = list(access_explorer)
 	holomap_color = HOLOMAP_AREACOLOR_EXPLORATION
 
 /area/quartermaster/exploration/eva
-	name = "Fourth Deck - Expedition - EVA"
+	name = "Fourth Deck - Helldiver Corps - EVA"
 
 /area/quartermaster/exploration/storage
-	name = "Fourth Deck - Expedition - Storage"
+	name = "Fourth Deck - Helldiver Corps - Storage"
 
 /area/quartermaster/exploration/briefing_room
-	name = "Fourth Deck - Expedition - Briefing Room"
+	name = "Fourth Deck - Helldiver Corps - Briefing Room"
 
 /area/quartermaster/shuttlefuel
 	name = "Fourth Deck - Hangar - Fuel Bay"

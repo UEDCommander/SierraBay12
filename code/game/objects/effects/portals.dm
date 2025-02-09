@@ -37,11 +37,6 @@
 			icon_state = "portal1"
 			dangerous = 1
 	playsound(src, 'sound/effects/phasein.ogg', 25, 1)
-	target = end
-
-	if(delete_after)
-		spawn(delete_after)
-			qdel(src)
 
 /obj/portal/Destroy()
 	target = null
@@ -53,7 +48,6 @@
 	if (icon_state == "portal1")
 		return
 	if (!( target ))
-		qdel(src)
 		return
 	if (istype(M, /atom/movable))
 		if(dangerous && prob(failchance)) //oh dear a problem, put em in deep space

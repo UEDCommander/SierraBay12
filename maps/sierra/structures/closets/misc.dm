@@ -3,7 +3,7 @@
  */
 
 /obj/structure/closet/secure_closet/iaa
-	name = "\improper Internal Affairs Agent's locker"
+	name = "\improper Democracy Officer's locker"
 	req_access = list(access_iaa)
 	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/corporate/iaa
 
@@ -32,7 +32,7 @@
 	)
 
 /obj/structure/closet/secure_closet/iso
-	name = "\improper Internal Security Operative's locker"
+	name = "\improper Truth Enforcer's locker"
 	req_access = list(access_iaa)
 	closet_appearance = /singleton/closet_appearance/secure_closet/sierra/corporate/iso
 
