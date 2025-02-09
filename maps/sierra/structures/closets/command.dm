@@ -37,7 +37,6 @@
 		/obj/item/clothing/suit/storage/toggle/captain_parade/female,
 		/obj/item/device/remote_device/captain,
 		/obj/item/ammo_magazine/speedloader,
-		/obj/item/storage/box/PDAs,
 		/obj/item/storage/box/ids,
 		/obj/item/clothing/head/beret/infinity/captain,
 		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/command, /obj/item/storage/backpack/satchel/com))
