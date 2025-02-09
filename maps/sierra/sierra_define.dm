@@ -1,7 +1,7 @@
 /datum/map/sierra
 	name = "\improper Sierra"
 	full_name = "\improper SES Sierra Democratica"
-	path = "sierra-event"
+	path = "sierra"
 	config_path = "config/sierra_config.txt"
 	flags = MAP_HAS_BRANCH | MAP_HAS_RANK
 
@@ -44,7 +44,7 @@
 	away_site_budget = 0 // Было 5, увеличили на 10% вместе с уменьешением цены для одноуровневых авеек ~bear1ake
 	min_offmap_players = 10
 
-	id_hud_icons = 'maps/sierra-event/icons/assignment_hud.dmi'
+	id_hud_icons = 'maps/sierra/icons/assignment_hud.dmi'
 
 	available_cultural_info = list(
 		TAG_HOMEWORLD = list(

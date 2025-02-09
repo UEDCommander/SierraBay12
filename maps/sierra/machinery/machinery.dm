@@ -299,7 +299,7 @@
 /obj/portal/hellpod
 	name = "hellpod"
 	desc = "An instant-launch platform that will deliver you straight to the planetary surface. Super Earth assured you it is perfectly safe and reliable."
-	icon = 'maps/sierra-event/icons/turf/decals.dmi'
+	icon = 'maps/sierra/icons/turf/decals.dmi'
 	icon_state = "hellpod"
 
 /obj/structure/superearthbanner
