@@ -1,0 +1,4 @@
+author: remission
+changes:
+  - {imageadd: скорректированы спрайты _padding для fancy_sofas}
+delete-after: true
