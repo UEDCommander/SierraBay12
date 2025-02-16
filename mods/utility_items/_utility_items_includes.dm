@@ -40,4 +40,6 @@
 #include "code/changed_sprite.dm"
 #include "code/rndloadout.dm"
 #include "code/dls_loadout.dm"
+#include "code/xeno_voids_and_rigs.dm"
+
 #endif
